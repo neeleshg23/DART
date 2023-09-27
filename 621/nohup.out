@@ -1,0 +1,541 @@
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.1988238462 - test_loss: 0.3401560605
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.1121748031 - test_loss: 0.3879721695
+Early Stop Left: 4
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.0975863241 - test_loss: 0.3806926476
+Early Stop Left: 3
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0899352960 - test_loss: 0.4318989817
+Early Stop Left: 2
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0841825442 - test_loss: 0.4207445487
+Early Stop Left: 1
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0796499291 - test_loss: 0.4358746318
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/36 [00:00<?, ?it/s] 33%|███▎      | 12/36 [00:00<00:00, 114.09it/s] 67%|██████▋   | 24/36 [00:00<00:00, 114.85it/s]100%|██████████| 36/36 [00:00<00:00, 117.48it/s]
+Best micro threshold=0.178061, fscore=0.638
+p,r,f1: 0.6185993423257832 0.6580561563129241 0.6377180154594063
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.7747247590513663 0.5001817808934298 0.6078927318096975
+{'model': 'vitt',
+ 'app': '621.wrf-s2.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.17806099355220795,
+                 'p': 0.6185993423257832,
+                 'r': 0.6580561563129241,
+                 'f1': 0.6377180154594063},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.7747247590513663,
+                 'r': 0.5001817808934298,
+                 'f1': 0.6078927318096975}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5073171479 - test_loss: 0.5761813803
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.3841226285 - test_loss: 0.4704384580
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3323922598 - test_loss: 0.4176744098
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3074420416 - test_loss: 0.3861280936
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2952250819 - test_loss: 0.3674279137
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2897619023 - test_loss: 0.3570958376
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2874548833 - test_loss: 0.3526351717
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2857263028 - test_loss: 0.3515883742
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2820259543 - test_loss: 0.3526231042
+Early Stop Left: 4
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2787829253 - test_loss: 0.3516606225
+Early Stop Left: 3
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2770595628 - test_loss: 0.3508762171
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2760938273 - test_loss: 0.3506090119
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2754206545 - test_loss: 0.3500048179
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2748492420 - test_loss: 0.3504673301
+Early Stop Left: 4
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2742624874 - test_loss: 0.3517281405
+Early Stop Left: 3
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2736297754 - test_loss: 0.3516185010
+Early Stop Left: 2
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2729344151 - test_loss: 0.3503850069
+Early Stop Left: 1
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2721899948 - test_loss: 0.3506461763
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/36 [00:00<?, ?it/s] 53%|█████▎    | 19/36 [00:00<00:00, 183.38it/s]100%|██████████| 36/36 [00:00<00:00, 188.47it/s]
+Best micro threshold=0.348144, fscore=0.538
+p,r,f1: 0.7234605213449188 0.4284435826683571 0.5381733021077284
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.8952409674889921 0.3459010739055858 0.4989997949159322
+{'model': 'vit',
+ 'app': '621.wrf-s2.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.348143607378006,
+                 'p': 0.7234605213449188,
+                 'r': 0.4284435826683571,
+                 'f1': 0.5381733021077284},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.8952409674889921,
+                 'r': 0.3459010739055858,
+                 'f1': 0.4989997949159322}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.6003910248 - test_loss: 0.5747667021
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4463629300 - test_loss: 0.4673256295
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3765417974 - test_loss: 0.4133702674
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3392360087 - test_loss: 0.3812879556
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3184672211 - test_loss: 0.3618379020
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.3073827456 - test_loss: 0.3499736761
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.3015710048 - test_loss: 0.3439190288
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2973149476 - test_loss: 0.3421351347
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2917294061 - test_loss: 0.3433184955
+Early Stop Left: 4
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2870491103 - test_loss: 0.3422577108
+Early Stop Left: 3
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2844719586 - test_loss: 0.3419093589
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2829886866 - test_loss: 0.3412151370
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2819277593 - test_loss: 0.3411049636
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2810127834 - test_loss: 0.3424725698
+Early Stop Left: 4
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2800598272 - test_loss: 0.3430470137
+Early Stop Left: 3
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2789715692 - test_loss: 0.3437067709
+Early Stop Left: 2
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2776479113 - test_loss: 0.3426444978
+Early Stop Left: 1
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2759761574 - test_loss: 0.3429216378
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/36 [00:00<?, ?it/s] 56%|█████▌    | 20/36 [00:00<00:00, 195.05it/s]100%|██████████| 36/36 [00:00<00:00, 195.34it/s]
+Best micro threshold=0.334953, fscore=0.539
+p,r,f1: 0.7422222947955406 0.42372893206055634 0.5394754996283664
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.8959041381183785 0.34587543813856364 0.4990760715132419
+{'model': 'vit',
+ 'app': '621.wrf-s2.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.3349533975124359,
+                 'p': 0.7422222947955406,
+                 'r': 0.42372893206055634,
+                 'f1': 0.5394754996283664},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.8959041381183785,
+                 'r': 0.34587543813856364,
+                 'f1': 0.4990760715132419}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5693875790 - test_loss: 0.5751813187
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4257281124 - test_loss: 0.4681654208
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3620682301 - test_loss: 0.4144544750
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3291064105 - test_loss: 0.3823688568
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3114542731 - test_loss: 0.3628446120
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.3025245634 - test_loss: 0.3511898261
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2981137461 - test_loss: 0.3455365698
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2947573517 - test_loss: 0.3442069896
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2899747998 - test_loss: 0.3450937635
+Early Stop Left: 4
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2860207813 - test_loss: 0.3440848564
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2838909090 - test_loss: 0.3436319489
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2826640772 - test_loss: 0.3431966545
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2817818034 - test_loss: 0.3430084528
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2810232267 - test_loss: 0.3441868689
+Early Stop Left: 4
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2802431160 - test_loss: 0.3450695607
+Early Stop Left: 3
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2793735088 - test_loss: 0.3456277069
+Early Stop Left: 2
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2783483292 - test_loss: 0.3448221228
+Early Stop Left: 1
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2771254678 - test_loss: 0.3452920318
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/36 [00:00<?, ?it/s] 47%|████▋     | 17/36 [00:00<00:00, 169.15it/s] 94%|█████████▍| 34/36 [00:00<00:00, 169.29it/s]100%|██████████| 36/36 [00:00<00:00, 171.49it/s]
+Best micro threshold=0.341849, fscore=0.539
+p,r,f1: 0.7479482525520224 0.42160116339771797 0.5392433173610749
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.8957451050281827 0.3455468342158252 0.49870924884168755
+{'model': 'vit',
+ 'app': '621.wrf-s2.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.34184888005256653,
+                 'p': 0.7479482525520224,
+                 'r': 0.42160116339771797,
+                 'f1': 0.5392433173610749},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.8957451050281827,
+                 'r': 0.3455468342158252,
+                 'f1': 0.49870924884168755}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.4048259274 - test_loss: 0.3453762854
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.2968322475 - test_loss: 0.3333430249
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.2752383155 - test_loss: 0.3431344421
+Early Stop Left: 4
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.2552379674 - test_loss: 0.3367798279
+Early Stop Left: 3
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2374595527 - test_loss: 0.3214571451
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2219566809 - test_loss: 0.3240708593
+Early Stop Left: 4
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2108165249 - test_loss: 0.3381845260
+Early Stop Left: 3
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2031005724 - test_loss: 0.3459409691
+Early Stop Left: 2
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.1971859490 - test_loss: 0.3519628371
+Early Stop Left: 1
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.1922627555 - test_loss: 0.3512498492
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/36 [00:00<?, ?it/s] 47%|████▋     | 17/36 [00:00<00:00, 164.42it/s] 94%|█████████▍| 34/36 [00:00<00:00, 161.71it/s]100%|██████████| 36/36 [00:00<00:00, 161.85it/s]
+Best micro threshold=0.162667, fscore=0.660
+p,r,f1: 0.6520144017599114 0.6672477440525021 0.659543124230449
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.8838710043588812 0.36293487582966666 0.5145750726936293
+{'model': 'vit',
+ 'app': '621.wrf-s2.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.16266706585884094,
+                 'p': 0.6520144017599114,
+                 'r': 0.6672477440525021,
+                 'f1': 0.659543124230449},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.8838710043588812,
+                 'r': 0.36293487582966666,
+                 'f1': 0.5145750726936293}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm

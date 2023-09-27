@@ -1,0 +1,20 @@
+{
+  "model": "vit",
+  "app": "462.libquantum-s0.txt.xz",
+  "validation": [
+    {
+      "method": "micro precision f1",
+      "threshold": 0.9381691217422485,
+      "p": 0.9830605066829604,
+      "r": 0.9999898456293164,
+      "f1": 0.9914529131102641
+    },
+    {
+      "method": "fixed threshold 0.5",
+      "threshold": 0.5,
+      "p": 0.9830463222533707,
+      "r": 1.0,
+      "f1": 0.9914506900033658
+    }
+  ]
+}

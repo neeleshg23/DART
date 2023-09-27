@@ -1,0 +1,1721 @@
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5919307130 - test_loss: 0.5395173253
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4192135360 - test_loss: 0.3950863999
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3299194943 - test_loss: 0.3180839425
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.2792854073 - test_loss: 0.2699688971
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2486420079 - test_loss: 0.2390679802
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2299698705 - test_loss: 0.2188503023
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2186113735 - test_loss: 0.2054239619
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2117333584 - test_loss: 0.1964236327
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2076008956 - test_loss: 0.1902693864
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2051421126 - test_loss: 0.1860894188
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2036994673 - test_loss: 0.1831464399
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2028706672 - test_loss: 0.1811904356
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2023963946 - test_loss: 0.1798253386
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2021249479 - test_loss: 0.1790062655
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2019475721 - test_loss: 0.1783456364
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2018254700 - test_loss: 0.1779362349
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2017238812 - test_loss: 0.1776397061
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2016088922 - test_loss: 0.1773771522
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2015023011 - test_loss: 0.1771960120
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2013783225 - test_loss: 0.1770870133
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2012676636 - test_loss: 0.1766349241
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2011250752 - test_loss: 0.1766978706
+Early Stop Left: 4
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2009918511 - test_loss: 0.1764691207
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2008243480 - test_loss: 0.1764308057
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2006218869 - test_loss: 0.1764184053
+-------- Save Best Model! --------
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2003288017 - test_loss: 0.1766593558
+Early Stop Left: 4
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.1999372270 - test_loss: 0.1764556152
+Early Stop Left: 3
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.1994894575 - test_loss: 0.1762029507
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.1991055631 - test_loss: 0.1762133633
+Early Stop Left: 4
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.1988102321 - test_loss: 0.1759388309
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.1985469484 - test_loss: 0.1758976923
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.1983383280 - test_loss: 0.1761530270
+Early Stop Left: 4
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.1981288308 - test_loss: 0.1768097155
+Early Stop Left: 3
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.1979657884 - test_loss: 0.1762432950
+Early Stop Left: 2
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.1977983022 - test_loss: 0.1766874522
+Early Stop Left: 1
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.1976546892 - test_loss: 0.1764015414
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 19%|█▉        | 20/104 [00:00<00:00, 194.53it/s] 38%|███▊      | 40/104 [00:00<00:00, 193.67it/s] 58%|█████▊    | 60/104 [00:00<00:00, 192.44it/s] 77%|███████▋  | 80/104 [00:00<00:00, 191.89it/s] 96%|█████████▌| 100/104 [00:00<00:00, 192.01it/s]100%|██████████| 104/104 [00:00<00:00, 193.74it/s]
+Best micro threshold=0.294705, fscore=0.551
+p,r,f1: 0.4669115142112904 0.6716482613424106 0.5508719233792644
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6331077097542196 0.3703984333327679 0.4673655571304903
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.29470497369766235,
+                 'p': 0.4669115142112904,
+                 'r': 0.6716482613424106,
+                 'f1': 0.5508719233792644},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6331077097542196,
+                 'r': 0.3703984333327679,
+                 'f1': 0.4673655571304903}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5308656697 - test_loss: 0.5406942591
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.3810310483 - test_loss: 0.3977579397
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3068945437 - test_loss: 0.3228166063
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.2672921809 - test_loss: 0.2767075211
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2449105349 - test_loss: 0.2476038840
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2323630185 - test_loss: 0.2289947899
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2254574985 - test_loss: 0.2170270494
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2217382055 - test_loss: 0.2093943710
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2197828800 - test_loss: 0.2044750802
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2187767944 - test_loss: 0.2014165837
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2182677685 - test_loss: 0.1994451320
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2180145656 - test_loss: 0.1983419026
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2178823680 - test_loss: 0.1976055711
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2178082715 - test_loss: 0.1972683071
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2177472234 - test_loss: 0.1969696826
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2176970930 - test_loss: 0.1968053664
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2176479300 - test_loss: 0.1965999802
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2175826711 - test_loss: 0.1964008946
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2175193317 - test_loss: 0.1963193740
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2174390558 - test_loss: 0.1962976357
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2173668892 - test_loss: 0.1955513993
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2172724217 - test_loss: 0.1957718620
+Early Stop Left: 4
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2171900587 - test_loss: 0.1954867129
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2170901730 - test_loss: 0.1953331330
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2169819196 - test_loss: 0.1953726973
+Early Stop Left: 4
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2168412049 - test_loss: 0.1953865098
+Early Stop Left: 3
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2166780530 - test_loss: 0.1954117606
+Early Stop Left: 2
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2164479083 - test_loss: 0.1952531942
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2161140391 - test_loss: 0.1955172659
+Early Stop Left: 4
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2157770215 - test_loss: 0.1949976031
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2155043720 - test_loss: 0.1946738438
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2153101539 - test_loss: 0.1948654874
+Early Stop Left: 4
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2151348383 - test_loss: 0.1955148784
+Early Stop Left: 3
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2150043650 - test_loss: 0.1947666309
+Early Stop Left: 2
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2148750011 - test_loss: 0.1952912842
+Early Stop Left: 1
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2147638879 - test_loss: 0.1947756255
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 16%|█▋        | 17/104 [00:00<00:00, 162.92it/s] 35%|███▍      | 36/104 [00:00<00:00, 173.47it/s] 53%|█████▎    | 55/104 [00:00<00:00, 178.03it/s] 71%|███████   | 74/104 [00:00<00:00, 182.05it/s] 90%|█████████ | 94/104 [00:00<00:00, 186.85it/s]100%|██████████| 104/104 [00:00<00:00, 184.55it/s]===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5614035226 - test_loss: 0.5400614830
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4001539626 - test_loss: 0.3963029158
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3185065797 - test_loss: 0.3202375993
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.2735037346 - test_loss: 0.2730140116
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2471425551 - test_loss: 0.2428998304
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2317112646 - test_loss: 0.2233730605
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2227729604 - test_loss: 0.2105685988
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2176674976 - test_loss: 0.2021519453
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2148017523 - test_loss: 0.1965409142
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2132220605 - test_loss: 0.1928753904
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2123682528 - test_loss: 0.1904029332
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2119178941 - test_loss: 0.1888823221
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2116771832 - test_loss: 0.1878632241
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2115445409 - test_loss: 0.1873310856
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2114494453 - test_loss: 0.1868868204
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2113771194 - test_loss: 0.1866374102
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2113098815 - test_loss: 0.1864118857
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2112255163 - test_loss: 0.1861968048
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2111449149 - test_loss: 0.1860785822
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2110464234 - test_loss: 0.1860111293
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2109580463 - test_loss: 0.1854078883
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2108431994 - test_loss: 0.1855482930
+Early Stop Left: 4
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2107399859 - test_loss: 0.1852766466
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2106130888 - test_loss: 0.1851732979
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2104687202 - test_loss: 0.1851663061
+-------- Save Best Model! --------
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2102706773 - test_loss: 0.1852904532
+Early Stop Left: 4
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2100122401 - test_loss: 0.1852893235
+Early Stop Left: 3
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2096522426 - test_loss: 0.1851556025
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2092609006 - test_loss: 0.1851349639
+-------- Save Best Model! --------
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2089508171 - test_loss: 0.1846816904
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2086962245 - test_loss: 0.1844988010
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2085030672 - test_loss: 0.1847369258
+Early Stop Left: 4
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2083160402 - test_loss: 0.1854040531
+Early Stop Left: 3
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2081730367 - test_loss: 0.1847275516
+Early Stop Left: 2
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2080273464 - test_loss: 0.1852295682
+Early Stop Left: 1
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2079022259 - test_loss: 0.1848334917
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 19%|█▉        | 20/104 [00:00<00:00, 194.05it/s] 38%|███▊      | 40/104 [00:00<00:00, 192.85it/s] 58%|█████▊    | 60/104 [00:00<00:00, 193.11it/s] 77%|███████▋  | 80/104 [00:00<00:00, 192.59it/s] 96%|█████████▌| 100/104 [00:00<00:00, 186.10it/s]100%|██████████| 104/104 [00:00<00:00, 190.66it/s]
+Best micro threshold=0.311020, fscore=0.551
+p,r,f1: 0.4716634311491245 0.6635548192169303 0.5513909641365873
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.642464600959353 0.3569615099716711 0.45893364512591855
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.3110196590423584,
+                 'p': 0.4716634311491245,
+                 'r': 0.6635548192169303,
+                 'f1': 0.5513909641365873},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.642464600959353,
+                 'r': 0.3569615099716711,
+                 'f1': 0.45893364512591855}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+
+Best micro threshold=0.310871, fscore=0.551
+p,r,f1: 0.4762741001005643 0.6543172878110198 0.5512767579241568
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6388292060877564 0.36258394543052247 0.4626046974685035
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.3108711838722229,
+                 'p': 0.4762741001005643,
+                 'r': 0.6543172878110198,
+                 'f1': 0.5512767579241568},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6388292060877564,
+                 'r': 0.36258394543052247,
+                 'f1': 0.4626046974685035}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5003160110 - test_loss: 0.5414381847
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.3618279707 - test_loss: 0.3995265138
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.2950345456 - test_loss: 0.3259539833
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.2605682007 - test_loss: 0.2812154826
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.2418361352 - test_loss: 0.2533764355
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2318033899 - test_loss: 0.2359275239
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2265632388 - test_loss: 0.2250070155
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2238990158 - test_loss: 0.2182966221
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2225804272 - test_loss: 0.2141374937
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2219397336 - test_loss: 0.2116853388
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2216299250 - test_loss: 0.2101656945
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2214805358 - test_loss: 0.2094002522
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2214016601 - test_loss: 0.2088642504
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2213554244 - test_loss: 0.2086360020
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2213119503 - test_loss: 0.2084411655
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2212746799 - test_loss: 0.2083195158
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2212372358 - test_loss: 0.2081159585
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2211856358 - test_loss: 0.2079216281
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2211351467 - test_loss: 0.2078722141
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2210691604 - test_loss: 0.2078930922
+Early Stop Left: 4
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2210096947 - test_loss: 0.2070225901
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2209309184 - test_loss: 0.2073225544
+Early Stop Left: 4
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2208633858 - test_loss: 0.2070442385
+Early Stop Left: 3
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2207820336 - test_loss: 0.2068415010
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2206963148 - test_loss: 0.2069391011
+Early Stop Left: 4
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2205886381 - test_loss: 0.2068837115
+Early Stop Left: 3
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2204751986 - test_loss: 0.2069323593
+Early Stop Left: 2
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2203299099 - test_loss: 0.2065058259
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2201103345 - test_loss: 0.2068881418
+Early Stop Left: 4
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2198084255 - test_loss: 0.2066628699
+Early Stop Left: 3
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2195117187 - test_loss: 0.2062717332
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2193018697 - test_loss: 0.2063746199
+Early Stop Left: 4
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2191299705 - test_loss: 0.2069618136
+Early Stop Left: 3
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2190081771 - test_loss: 0.2062121224
+-------- Save Best Model! --------
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2188934353 - test_loss: 0.2067009785
+Early Stop Left: 4
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2187969510 - test_loss: 0.2060751677
+-------- Save Best Model! --------
+------- START EPOCH 37 -------
+Epoch: 37 - loss: 0.2187070972 - test_loss: 0.2060506960
+-------- Save Best Model! --------
+------- START EPOCH 38 -------
+Epoch: 38 - loss: 0.2186099723 - test_loss: 0.2065324298
+Early Stop Left: 4
+------- START EPOCH 39 -------
+Epoch: 39 - loss: 0.2185410685 - test_loss: 0.2064898795
+Early Stop Left: 3
+------- START EPOCH 40 -------
+Epoch: 40 - loss: 0.2184640278 - test_loss: 0.2071212085
+Early Stop Left: 2
+------- START EPOCH 41 -------
+Epoch: 41 - loss: 0.2183893479 - test_loss: 0.2067631893
+Early Stop Left: 1
+------- START EPOCH 42 -------
+Epoch: 42 - loss: 0.2183227207 - test_loss: 0.2068233411
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 18%|█▊        | 19/104 [00:00<00:00, 186.97it/s] 37%|███▋      | 38/104 [00:00<00:00, 185.75it/s] 55%|█████▍    | 57/104 [00:00<00:00, 185.70it/s] 73%|███████▎  | 76/104 [00:00<00:00, 185.75it/s] 91%|█████████▏| 95/104 [00:00<00:00, 184.49it/s]100%|██████████| 104/104 [00:00<00:00, 186.26it/s]
+Best micro threshold=0.321964, fscore=0.551
+p,r,f1: 0.4677979828790582 0.6706248009152714 0.551143096576519
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6330295823722506 0.36674941052072085 0.46442909448499403
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.321964293718338,
+                 'p': 0.4677979828790582,
+                 'r': 0.6706248009152714,
+                 'f1': 0.551143096576519},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6330295823722506,
+                 'r': 0.36674941052072085,
+                 'f1': 0.46442909448499403}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5413693022 - test_loss: 0.6543835218
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4590461490 - test_loss: 0.5401152808
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.3857980143 - test_loss: 0.4563142382
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3393564762 - test_loss: 0.4014813224
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3081399201 - test_loss: 0.3601884011
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2851083456 - test_loss: 0.3275943350
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2677483395 - test_loss: 0.3015478732
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2546674738 - test_loss: 0.2806954438
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2448962784 - test_loss: 0.2639966192
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2376931654 - test_loss: 0.2507015189
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2324677863 - test_loss: 0.2401354913
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2287528772 - test_loss: 0.2318669960
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2261682726 - test_loss: 0.2254311931
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2244102199 - test_loss: 0.2205632396
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2232387489 - test_loss: 0.2168414154
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2224853270 - test_loss: 0.2140964781
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2220150925 - test_loss: 0.2121663963
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2217204619 - test_loss: 0.2108219167
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2215472777 - test_loss: 0.2098758363
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2214327113 - test_loss: 0.2092408443
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2213696479 - test_loss: 0.2086613920
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2213143589 - test_loss: 0.2086028063
+-------- Save Best Model! --------
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2212903360 - test_loss: 0.2082049885
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2212643919 - test_loss: 0.2080937753
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2212444875 - test_loss: 0.2081340832
+Early Stop Left: 4
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2212113400 - test_loss: 0.2080660733
+-------- Save Best Model! --------
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2211879752 - test_loss: 0.2079423626
+-------- Save Best Model! --------
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2211632496 - test_loss: 0.2077982431
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2211331084 - test_loss: 0.2078182829
+Early Stop Left: 4
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2211035469 - test_loss: 0.2077303446
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2210699893 - test_loss: 0.2075355393
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2210400846 - test_loss: 0.2075145770
+-------- Save Best Model! --------
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2209986241 - test_loss: 0.2076313905
+Early Stop Left: 4
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2209641181 - test_loss: 0.2070971822
+-------- Save Best Model! --------
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2209191396 - test_loss: 0.2073171902
+Early Stop Left: 4
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2208826746 - test_loss: 0.2068924387
+-------- Save Best Model! --------
+------- START EPOCH 37 -------
+Epoch: 37 - loss: 0.2208373518 - test_loss: 0.2070106514
+Early Stop Left: 4
+------- START EPOCH 38 -------
+Epoch: 38 - loss: 0.2207856860 - test_loss: 0.2070835915
+Early Stop Left: 3
+------- START EPOCH 39 -------
+Epoch: 39 - loss: 0.2207416979 - test_loss: 0.2067559563
+-------- Save Best Model! --------
+------- START EPOCH 40 -------
+Epoch: 40 - loss: 0.2206989877 - test_loss: 0.2068849104
+Early Stop Left: 4
+------- START EPOCH 41 -------
+Epoch: 41 - loss: 0.2206528725 - test_loss: 0.2068795517
+Early Stop Left: 3
+------- START EPOCH 42 -------
+Epoch: 42 - loss: 0.2206047092 - test_loss: 0.2067071376
+-------- Save Best Model! --------
+------- START EPOCH 43 -------
+Epoch: 43 - loss: 0.2205549940 - test_loss: 0.2066226156
+-------- Save Best Model! --------
+------- START EPOCH 44 -------
+Epoch: 44 - loss: 0.2205141139 - test_loss: 0.2066713208
+Early Stop Left: 4
+------- START EPOCH 45 -------
+Epoch: 45 - loss: 0.2204551803 - test_loss: 0.2066138831
+-------- Save Best Model! --------
+------- START EPOCH 46 -------
+Epoch: 46 - loss: 0.2204094260 - test_loss: 0.2066156805
+Early Stop Left: 4
+------- START EPOCH 47 -------
+Epoch: 47 - loss: 0.2203510559 - test_loss: 0.2063779971
+-------- Save Best Model! --------
+------- START EPOCH 48 -------
+Epoch: 48 - loss: 0.2202821523 - test_loss: 0.2064360731
+Early Stop Left: 4
+------- START EPOCH 49 -------
+Epoch: 49 - loss: 0.2202160517 - test_loss: 0.2062481756
+-------- Save Best Model! --------
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.6083502428 - test_loss: 0.6539965874
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.5139924782 - test_loss: 0.5387251371
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.4286577442 - test_loss: 0.4541802552
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3733484647 - test_loss: 0.3983616843
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3350377015 - test_loss: 0.3559022113
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.3058950978 - test_loss: 0.3220906653
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2832152684 - test_loss: 0.2948235288
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2655075184 - test_loss: 0.2727656836
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2517339605 - test_loss: 0.2548949999
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2410994020 - test_loss: 0.2404363949
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2329653546 - test_loss: 0.2287191236
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2268203938 - test_loss: 0.2192939660
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2222397662 - test_loss: 0.2117194171
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2188728854 - test_loss: 0.2057056450
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2164330576 - test_loss: 0.2008951868
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2147087504 - test_loss: 0.1971132297
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2135185189 - test_loss: 0.1942170888
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2127058917 - test_loss: 0.1919997019
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2121762289 - test_loss: 0.1903000706
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2118203876 - test_loss: 0.1890527490
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2116038783 - test_loss: 0.1880880965
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2114473968 - test_loss: 0.1875639736
+-------- Save Best Model! --------
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2113645940 - test_loss: 0.1869892037
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2112993247 - test_loss: 0.1867080534
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2112536315 - test_loss: 0.1865668790
+-------- Save Best Model! --------
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2111967936 - test_loss: 0.1864437137
+-------- Save Best Model! --------
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2111558810 - test_loss: 0.1862540308
+-------- Save Best Model! --------
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2111147074 - test_loss: 0.1861329210
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2110671148 - test_loss: 0.1860995284
+-------- Save Best Model! --------
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2110206689 - test_loss: 0.1859771631
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2109703453 - test_loss: 0.1858056332
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2109256828 - test_loss: 0.1857647861
+-------- Save Best Model! --------
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2108660819 - test_loss: 0.1858214800
+Early Stop Left: 4
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2108166012 - test_loss: 0.1854269944
+-------- Save Best Model! --------
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2107535819 - test_loss: 0.1855470118
+Early Stop Left: 4
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2107018118 - test_loss: 0.1852194130
+-------- Save Best Model! --------
+------- START EPOCH 37 -------
+Epoch: 37 - loss: 0.2106378305 - test_loss: 0.1852926841
+Early Stop Left: 4
+------- START EPOCH 38 -------
+Epoch: 38 - loss: 0.2105652983 - test_loss: 0.1853393573
+Early Stop Left: 3
+------- START EPOCH 39 -------
+Epoch: 39 - loss: 0.2105016274 - test_loss: 0.1851029135
+-------- Save Best Model! --------
+------- START EPOCH 40 -------
+Epoch: 40 - loss: 0.2104384945 - test_loss: 0.1851550255
+Early Stop Left: 4
+------- START EPOCH 41 -------
+Epoch: 41 - loss: 0.2103706116 - test_loss: 0.1851808409
+Early Stop Left: 3
+------- START EPOCH 42 -------
+Epoch: 42 - loss: 0.2102976005 - test_loss: 0.1850404956
+-------- Save Best Model! --------
+------- START EPOCH 43 -------
+Epoch: 43 - loss: 0.2102207619 - test_loss: 0.1850266726
+-------- Save Best Model! --------
+------- START EPOCH 44 -------
+Epoch: 44 - loss: 0.2101534908 - test_loss: 0.1850575469
+Early Stop Left: 4
+------- START EPOCH 45 -------
+Epoch: 45 - loss: 0.2100605311 - test_loss: 0.1850529290
+Early Stop Left: 3
+------- START EPOCH 46 -------
+Epoch: 46 - loss: 0.2099812220 - test_loss: 0.1850419181
+Early Stop Left: 2
+------- START EPOCH 47 -------
+Epoch: 47 - loss: 0.2098803125 - test_loss: 0.1849861744
+-------- Save Best Model! --------
+------- START EPOCH 48 -------
+Epoch: 48 - loss: 0.2097597732 - test_loss: 0.1850201413
+Early Stop Left: 4
+------- START EPOCH 49 -------
+Epoch: 49 - loss: 0.2096346436 - test_loss: 0.1849170234
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.6418358917 - test_loss: 0.6538420022
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.5414348495 - test_loss: 0.5381738188
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.4500228378 - test_loss: 0.4533733912
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3902154165 - test_loss: 0.3971817333
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3482494130 - test_loss: 0.3542891165
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.3159089929 - test_loss: 0.3200343137
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2903951496 - test_loss: 0.2923407572
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2701689702 - test_loss: 0.2698765192
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2541577994 - test_loss: 0.2516093852
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2415397912 - test_loss: 0.2367727327
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2316546415 - test_loss: 0.2246954481
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2239747641 - test_loss: 0.2149083407
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2180613598 - test_loss: 0.2069772717
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2135497437 - test_loss: 0.2005933466
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2101395274 - test_loss: 0.1954107329
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2076078570 - test_loss: 0.1912470867
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2057593000 - test_loss: 0.1879619191
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2044210347 - test_loss: 0.1853535928
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2034850589 - test_loss: 0.1832732379
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2028218290 - test_loss: 0.1816689755
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2023836518 - test_loss: 0.1804110146
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2020693081 - test_loss: 0.1795557699
+-------- Save Best Model! --------
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2018823621 - test_loss: 0.1787817865
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2017472757 - test_loss: 0.1782946528
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2016566114 - test_loss: 0.1779775865
+-------- Save Best Model! --------
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2015673330 - test_loss: 0.1777450772
+-------- Save Best Model! --------
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2015046290 - test_loss: 0.1774883442
+-------- Save Best Model! --------
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2014459657 - test_loss: 0.1773386682
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2013821961 - test_loss: 0.1772616550
+-------- Save Best Model! --------
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2013209602 - test_loss: 0.1771180072
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2012568393 - test_loss: 0.1769585314
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2012004131 - test_loss: 0.1769015292
+-------- Save Best Model! --------
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2011273789 - test_loss: 0.1769201178
+Early Stop Left: 4
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2010667429 - test_loss: 0.1766182416
+-------- Save Best Model! --------
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2009905811 - test_loss: 0.1766865600
+Early Stop Left: 4
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2009269131 - test_loss: 0.1764267257
+-------- Save Best Model! --------
+------- START EPOCH 37 -------
+Epoch: 37 - loss: 0.2008483166 - test_loss: 0.1764743779
+Early Stop Left: 4
+------- START EPOCH 38 -------
+Epoch: 38 - loss: 0.2007589816 - test_loss: 0.1765054608
+Early Stop Left: 3
+------- START EPOCH 39 -------
+Epoch: 39 - loss: 0.2006783318 - test_loss: 0.1763380644
+-------- Save Best Model! --------
+------- START EPOCH 40 -------
+Epoch: 40 - loss: 0.2005969667 - test_loss: 0.1763588384
+Early Stop Left: 4
+------- START EPOCH 41 -------
+Epoch: 41 - loss: 0.2005094904 - test_loss: 0.1764082585
+Early Stop Left: 3
+------- START EPOCH 42 -------
+Epoch: 42 - loss: 0.2004140015 - test_loss: 0.1763105772
+-------- Save Best Model! --------
+------- START EPOCH 43 -------
+Epoch: 43 - loss: 0.2003120465 - test_loss: 0.1763315910
+Early Stop Left: 4
+------- START EPOCH 44 -------
+Epoch: 44 - loss: 0.2002189319 - test_loss: 0.1763769553
+Early Stop Left: 3
+------- START EPOCH 45 -------
+Epoch: 45 - loss: 0.2000943250 - test_loss: 0.1763982118
+Early Stop Left: 2
+------- START EPOCH 46 -------
+Epoch: 46 - loss: 0.1999809947 - test_loss: 0.1763909330
+Early Stop Left: 1
+------- START EPOCH 47 -------
+Epoch: 47 - loss: 0.1998380220 - test_loss: 0.1764256950
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 19%|█▉        | 20/104 [00:00<00:00, 192.35it/s] 38%|███▊      | 40/104 [00:00<00:00, 181.09it/s] 57%|█████▋    | 59/104 [00:00<00:00, 183.48it/s] 75%|███████▌  | 78/104 [00:00<00:00, 184.85it/s] 94%|█████████▍| 98/104 [00:00<00:00, 186.90it/s]100%|██████████| 104/104 [00:00<00:00, 187.21it/s]
+Best micro threshold=0.284776, fscore=0.548
+p,r,f1: 0.4748812620347209 0.6465876170712446 0.5475895931336008
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6577001016877236 0.33890299366887 0.4473125448572591
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.2847760319709778,
+                 'p': 0.4748812620347209,
+                 'r': 0.6465876170712446,
+                 'f1': 0.5475895931336008},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6577001016877236,
+                 'r': 0.33890299366887,
+                 'f1': 0.4473125448572591}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5748614606 - test_loss: 0.6541725437
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.4865303467 - test_loss: 0.5393566879
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.4072530115 - test_loss: 0.4551463497
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.3564034605 - test_loss: 0.3997673149
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.3216810882 - test_loss: 0.3578335537
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.2956475923 - test_loss: 0.3245659187
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.2756915849 - test_loss: 0.2978428745
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.2603709278 - test_loss: 0.2763179628
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.2486827410 - test_loss: 0.2589595713
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.2398581818 - test_loss: 0.2450072347
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.2332803802 - test_loss: 0.2337880920
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.2284567734 - test_loss: 0.2248646266
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.2249811786 - test_loss: 0.2177937177
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.2225231465 - test_loss: 0.2122996694
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.2208161807 - test_loss: 0.2079912860
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.2196673500 - test_loss: 0.2047033142
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.2189159043 - test_loss: 0.2022828941
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.2184278912 - test_loss: 0.2005125767
+-------- Save Best Model! --------
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.2181281160 - test_loss: 0.1992144706
+-------- Save Best Model! --------
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.2179313944 - test_loss: 0.1983088229
+-------- Save Best Model! --------
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.2178185394 - test_loss: 0.1975788145
+-------- Save Best Model! --------
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.2177306646 - test_loss: 0.1973254132
+-------- Save Best Model! --------
+------- START EPOCH 23 -------
+Epoch: 23 - loss: 0.2176885589 - test_loss: 0.1968699490
+-------- Save Best Model! --------
+------- START EPOCH 24 -------
+Epoch: 24 - loss: 0.2176498716 - test_loss: 0.1967026315
+-------- Save Best Model! --------
+------- START EPOCH 25 -------
+Epoch: 25 - loss: 0.2176212642 - test_loss: 0.1966696704
+-------- Save Best Model! --------
+------- START EPOCH 26 -------
+Epoch: 26 - loss: 0.2175789931 - test_loss: 0.1965895226
+-------- Save Best Model! --------
+------- START EPOCH 27 -------
+Epoch: 27 - loss: 0.2175486729 - test_loss: 0.1964348547
+-------- Save Best Model! --------
+------- START EPOCH 28 -------
+Epoch: 28 - loss: 0.2175172327 - test_loss: 0.1963085638
+-------- Save Best Model! --------
+------- START EPOCH 29 -------
+Epoch: 29 - loss: 0.2174797055 - test_loss: 0.1963031706
+-------- Save Best Model! --------
+------- START EPOCH 30 -------
+Epoch: 30 - loss: 0.2174429402 - test_loss: 0.1961977843
+-------- Save Best Model! --------
+------- START EPOCH 31 -------
+Epoch: 31 - loss: 0.2174020884 - test_loss: 0.1960142652
+-------- Save Best Model! --------
+------- START EPOCH 32 -------
+Epoch: 32 - loss: 0.2173657303 - test_loss: 0.1959826564
+-------- Save Best Model! --------
+------- START EPOCH 33 -------
+Epoch: 33 - loss: 0.2173161903 - test_loss: 0.1960734999
+Early Stop Left: 4
+------- START EPOCH 34 -------
+Epoch: 34 - loss: 0.2172750666 - test_loss: 0.1956026660
+-------- Save Best Model! --------
+------- START EPOCH 35 -------
+Epoch: 35 - loss: 0.2172220726 - test_loss: 0.1957751795
+Early Stop Left: 4
+------- START EPOCH 36 -------
+Epoch: 36 - loss: 0.2171789509 - test_loss: 0.1953901636
+-------- Save Best Model! --------
+------- START EPOCH 37 -------
+Epoch: 37 - loss: 0.2171255589 - test_loss: 0.1954880576
+Early Stop Left: 4
+------- START EPOCH 38 -------
+Epoch: 38 - loss: 0.2170648707 - test_loss: 0.1955510038
+Early Stop Left: 3
+------- START EPOCH 39 -------
+Epoch: 39 - loss: 0.2170125654 - test_loss: 0.1952602618
+-------- Save Best Model! --------
+------- START EPOCH 40 -------
+Epoch: 40 - loss: 0.2169612895 - test_loss: 0.1953491210
+Early Stop Left: 4
+------- START EPOCH 41 -------
+Epoch: 41 - loss: 0.2169060399 - test_loss: 0.1953575537
+Early Stop Left: 3
+------- START EPOCH 42 -------
+Epoch: 42 - loss: 0.2168474056 - test_loss: 0.1951957983
+-------- Save Best Model! --------
+------- START EPOCH 43 -------
+Epoch: 43 - loss: 0.2167863094 - test_loss: 0.1951454555
+-------- Save Best Model! --------
+------- START EPOCH 44 -------
+Epoch: 44 - loss: 0.2167344955 - test_loss: 0.1951784943
+Early Stop Left: 4
+------- START EPOCH 45 -------
+Epoch: 45 - loss: 0.2166610705 - test_loss: 0.1951472147
+Early Stop Left: 3
+------- START EPOCH 46 -------
+Epoch: 46 - loss: 0.2166013448 - test_loss: 0.1951395564
+-------- Save Best Model! --------
+------- START EPOCH 47 -------
+Epoch: 47 - loss: 0.2165250097 - test_loss: 0.1949873165
+-------- Save Best Model! --------
+------- START EPOCH 48 -------
+Epoch: 48 - loss: 0.2164343064 - test_loss: 0.1950301082
+Early Stop Left: 4
+------- START EPOCH 49 -------
+Epoch: 49 - loss: 0.2163429959 - test_loss: 0.1948924692
+------- START EPOCH 50 -------
+Epoch: 50 - loss: 0.2201400612 - test_loss: 0.2063011854
+Early Stop Left: 4
+------- START EPOCH 51 -------
+Epoch: 51 - loss: 0.2200374625 - test_loss: 0.2062294227
+-------- Save Best Model! --------
+------- START EPOCH 52 -------
+Epoch: 52 - loss: 0.2199166510 - test_loss: 0.2063096634
+Early Stop Left: 4
+------- START EPOCH 53 -------
+Epoch: 53 - loss: 0.2197749610 - test_loss: 0.2063700448
+Early Stop Left: 3
+------- START EPOCH 54 -------
+Epoch: 54 - loss: 0.2196305206 - test_loss: 0.2062810323
+Early Stop Left: 2
+------- START EPOCH 55 -------
+Epoch: 55 - loss: 0.2195048966 - test_loss: 0.2061852704
+-------- Save Best Model! --------
+------- START EPOCH 56 -------
+Epoch: 56 - loss: 0.2193933303 - test_loss: 0.2059724639
+-------- Save Best Model! --------
+------- START EPOCH 57 -------
+Epoch: 57 - loss: 0.2193008300 - test_loss: 0.2059430120
+-------- Save Best Model! --------
+------- START EPOCH 58 -------
+Epoch: 58 - loss: 0.2192126688 - test_loss: 0.2058215624
+-------- Save Best Model! --------
+------- START EPOCH 59 -------
+Epoch: 59 - loss: 0.2191345231 - test_loss: 0.2054733425
+-------- Save Best Model! --------
+------- START EPOCH 60 -------
+Epoch: 60 - loss: 0.2190712357 - test_loss: 0.2059979588
+Early Stop Left: 4
+------- START EPOCH 61 -------
+Epoch: 61 - loss: 0.2190016518 - test_loss: 0.2058799939
+Early Stop Left: 3
+------- START EPOCH 62 -------
+Epoch: 62 - loss: 0.2189503245 - test_loss: 0.2059383796
+Early Stop Left: 2
+------- START EPOCH 63 -------
+Epoch: 63 - loss: 0.2189048506 - test_loss: 0.2060618595
+Early Stop Left: 1
+------- START EPOCH 64 -------
+Epoch: 64 - loss: 0.2188542030 - test_loss: 0.2059507324
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 16%|█▋        | 17/104 [00:00<00:00, 169.08it/s] 34%|███▎      | 35/104 [00:00<00:00, 174.20it/s] 52%|█████▏    | 54/104 [00:00<00:00, 179.37it/s] 70%|███████   | 73/104 [00:00<00:00, 181.96it/s] 88%|████████▊ | 92/104 [00:00<00:00, 183.63it/s]100%|██████████| 104/104 [00:00<00:00, 182.97it/s]-------- Save Best Model! --------
+------- START EPOCH 50 -------
+Epoch: 50 - loss: 0.2094890338 - test_loss: 0.1848638182
+-------- Save Best Model! --------
+------- START EPOCH 51 -------
+Epoch: 51 - loss: 0.2093131745 - test_loss: 0.1848652187
+Early Stop Left: 4
+------- START EPOCH 52 -------
+Epoch: 52 - loss: 0.2091374805 - test_loss: 0.1848762619
+Early Stop Left: 3
+------- START EPOCH 53 -------
+Epoch: 53 - loss: 0.2089706721 - test_loss: 0.1848030888
+-------- Save Best Model! --------
+------- START EPOCH 54 -------
+Epoch: 54 - loss: 0.2088258996 - test_loss: 0.1846660695
+-------- Save Best Model! --------
+------- START EPOCH 55 -------
+Epoch: 55 - loss: 0.2087070055 - test_loss: 0.1845445003
+-------- Save Best Model! --------
+------- START EPOCH 56 -------
+Epoch: 56 - loss: 0.2085967122 - test_loss: 0.1844123639
+-------- Save Best Model! --------
+------- START EPOCH 57 -------
+Epoch: 57 - loss: 0.2085017645 - test_loss: 0.1844178623
+Early Stop Left: 4
+------- START EPOCH 58 -------
+Epoch: 58 - loss: 0.2084042565 - test_loss: 0.1843794570
+-------- Save Best Model! --------
+------- START EPOCH 59 -------
+Epoch: 59 - loss: 0.2083140181 - test_loss: 0.1841174386
+-------- Save Best Model! --------
+------- START EPOCH 60 -------
+Epoch: 60 - loss: 0.2082373344 - test_loss: 0.1845631168
+Early Stop Left: 4
+------- START EPOCH 61 -------
+Epoch: 61 - loss: 0.2081509308 - test_loss: 0.1845249605
+Early Stop Left: 3
+------- START EPOCH 62 -------
+Epoch: 62 - loss: 0.2080858143 - test_loss: 0.1846510107
+Early Stop Left: 2
+------- START EPOCH 63 -------
+Epoch: 63 - loss: 0.2080262510 - test_loss: 0.1847552568
+Early Stop Left: 1
+------- START EPOCH 64 -------
+Epoch: 64 - loss: 0.2079594188 - test_loss: 0.1847010443
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 19%|█▉        | 20/104 [00:00<00:00, 193.97it/s] 38%|███▊      | 40/104 [00:00<00:00, 194.11it/s] 58%|█████▊    | 60/104 [00:00<00:00, 193.59it/s] 77%|███████▋  | 80/104 [00:00<00:00, 194.14it/s] 96%|█████████▌| 100/104 [00:00<00:00, 193.12it/s]100%|██████████| 104/104 [00:00<00:00, 194.89it/s]
+Best micro threshold=0.300802, fscore=0.551
+p,r,f1: 0.47247455917629305 0.6604392021155285 0.5508640313918829
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6420024095893488 0.35554789059716935 0.4576463010338691
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.30080220103263855,
+                 'p': 0.47247455917629305,
+                 'r': 0.6604392021155285,
+                 'f1': 0.5508640313918829},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6420024095893488,
+                 'r': 0.35554789059716935,
+                 'f1': 0.4576463010338691}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+
+Best micro threshold=0.314323, fscore=0.552
+p,r,f1: 0.47233231041961843 0.6628951301754962 0.5516194855853157
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6486681040234284 0.3481819912430992 0.4531364408494668
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.31432297825813293,
+                 'p': 0.47233231041961843,
+                 'r': 0.6628951301754962,
+                 'f1': 0.5516194855853157},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6486681040234284,
+                 'r': 0.3481819912430992,
+                 'f1': 0.4531364408494668}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+-------- Save Best Model! --------
+------- START EPOCH 50 -------
+Epoch: 50 - loss: 0.2162355676 - test_loss: 0.1949075697
+Early Stop Left: 4
+------- START EPOCH 51 -------
+Epoch: 51 - loss: 0.2160952822 - test_loss: 0.1948839816
+-------- Save Best Model! --------
+------- START EPOCH 52 -------
+Epoch: 52 - loss: 0.2159399495 - test_loss: 0.1949594878
+Early Stop Left: 4
+------- START EPOCH 53 -------
+Epoch: 53 - loss: 0.2157778472 - test_loss: 0.1949434662
+Early Stop Left: 3
+------- START EPOCH 54 -------
+Epoch: 54 - loss: 0.2156302533 - test_loss: 0.1947959385
+-------- Save Best Model! --------
+------- START EPOCH 55 -------
+Epoch: 55 - loss: 0.2155086621 - test_loss: 0.1946676157
+-------- Save Best Model! --------
+------- START EPOCH 56 -------
+Epoch: 56 - loss: 0.2153992769 - test_loss: 0.1944804451
+-------- Save Best Model! --------
+------- START EPOCH 57 -------
+Epoch: 57 - loss: 0.2153073195 - test_loss: 0.1944742164
+-------- Save Best Model! --------
+------- START EPOCH 58 -------
+Epoch: 58 - loss: 0.2152157376 - test_loss: 0.1943950483
+-------- Save Best Model! --------
+------- START EPOCH 59 -------
+Epoch: 59 - loss: 0.2151326039 - test_loss: 0.1940775571
+-------- Save Best Model! --------
+------- START EPOCH 60 -------
+Epoch: 60 - loss: 0.2150634839 - test_loss: 0.1945766070
+Early Stop Left: 4
+------- START EPOCH 61 -------
+Epoch: 61 - loss: 0.2149862815 - test_loss: 0.1945016169
+Early Stop Left: 3
+------- START EPOCH 62 -------
+Epoch: 62 - loss: 0.2149288075 - test_loss: 0.1945998927
+Early Stop Left: 2
+------- START EPOCH 63 -------
+Epoch: 63 - loss: 0.2148767352 - test_loss: 0.1947166133
+Early Stop Left: 1
+------- START EPOCH 64 -------
+Epoch: 64 - loss: 0.2148185753 - test_loss: 0.1946198447
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/104 [00:00<?, ?it/s] 14%|█▍        | 15/104 [00:00<00:00, 148.25it/s] 30%|██▉       | 31/104 [00:00<00:00, 149.67it/s] 44%|████▍     | 46/104 [00:00<00:00, 149.46it/s] 59%|█████▊    | 61/104 [00:00<00:00, 149.32it/s] 73%|███████▎  | 76/104 [00:00<00:00, 149.04it/s] 88%|████████▊ | 91/104 [00:00<00:00, 149.19it/s]100%|██████████| 104/104 [00:00<00:00, 148.94it/s]
+Best micro threshold=0.307087, fscore=0.551
+p,r,f1: 0.4725253128945675 0.661649260300102 0.5513190493578493
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.6468426432649315 0.35065488273556084 0.45477512537171505
+{'model': 'vit',
+ 'app': '437.leslie3d-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.307087242603302,
+                 'p': 0.4725253128945675,
+                 'r': 0.661649260300102,
+                 'f1': 0.5513190493578493},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.6468426432649315,
+                 'r': 0.35065488273556084,
+                 'f1': 0.45477512537171505}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+Generation start
+preprocessing_gen with context
+b4 model prediction col0
+ Index(['id', 'cycle', 'addr', 'ip', 'hit', 'raw', 'block_address',
+       'page_address', 'page_offset', 'block_index', 'block_addr_delta',
+       'patch', 'past', 'past_ip', 'past_page'],
+      dtype='object')
+predicting
+  0%|          | 0/106 [00:00<?, ?it/s]  1%|          | 1/106 [00:01<02:51,  1.63s/it]  9%|▉         | 10/106 [00:01<00:12,  7.77it/s] 18%|█▊        | 19/106 [00:01<00:05, 16.07it/s] 26%|██▋       | 28/106 [00:01<00:03, 25.16it/s] 35%|███▍      | 37/106 [00:02<00:01, 34.57it/s] 43%|████▎     | 46/106 [00:02<00:01, 43.67it/s] 52%|█████▏    | 55/106 [00:02<00:00, 51.95it/s] 60%|██████    | 64/106 [00:02<00:00, 59.12it/s] 69%|██████▉   | 73/106 [00:02<00:00, 65.01it/s] 77%|███████▋  | 82/106 [00:02<00:00, 69.79it/s] 86%|████████▌ | 91/106 [00:02<00:00, 73.40it/s] 94%|█████████▍| 100/106 [00:02<00:00, 76.11it/s]100%|██████████| 106/106 [00:02<00:00, 36.63it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+post_processing, opt_threshold<0.9
+after delta filter
+ Index(['id', 'pred_hex'], dtype='object')
+               app  mean  max  min  median
+0  437.leslie3d-s0   1.0  1.0  1.0     1.0
+Done: results saved at: res/437.leslie3d-s0.vitt.pkl.degree_stats.csv
+Generation start
+preprocessing_gen with context
+b4 model prediction col0
+ Index(['id', 'cycle', 'addr', 'ip', 'hit', 'raw', 'block_address',
+       'page_address', 'page_offset', 'block_index', 'block_addr_delta',
+       'patch', 'past', 'past_ip', 'past_page'],
+      dtype='object')
+predicting
+  0%|          | 0/106 [00:00<?, ?it/s]  1%|          | 1/106 [00:01<02:56,  1.68s/it] 24%|██▎       | 25/106 [00:01<00:04, 19.39it/s] 47%|████▋     | 50/106 [00:01<00:01, 42.49it/s] 71%|███████   | 75/106 [00:01<00:00, 68.42it/s] 93%|█████████▎| 99/106 [00:02<00:00, 93.86it/s]100%|██████████| 106/106 [00:02<00:00, 50.14it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+post_processing, opt_threshold<0.9
+after delta filter
+ Index(['id', 'pred_hex'], dtype='object')
+               app  mean  max  min  median
+0  437.leslie3d-s0   1.0  1.0  1.0     1.0
+Done: results saved at: res/437.leslie3d-s0.vit.stu.75.1.pkl.degree_stats.csv

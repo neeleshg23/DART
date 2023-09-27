@@ -1,0 +1,231 @@
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Traceback (most recent call last):
+  File "src/train_kd.py", line 237, in <module>
+    main()
+  File "src/train_kd.py", line 215, in main
+    curr_train_loader = torch.load(os.path.join(processed_dir, cluster_option, f"{app_name}.train_{i}.pt"))
+  File "/home/neelesh/miniconda3/envs/comp/lib/python3.8/site-packages/torch/serialization.py", line 699, in load
+    with _open_file_like(f, 'rb') as opened_file:
+  File "/home/neelesh/miniconda3/envs/comp/lib/python3.8/site-packages/torch/serialization.py", line 231, in _open_file_like
+    return _open_file(name_or_buffer, mode)
+  File "/home/neelesh/miniconda3/envs/comp/lib/python3.8/site-packages/torch/serialization.py", line 212, in __init__
+    super(_open_file, self).__init__(open(name, mode))
+FileNotFoundError: [Errno 2] No such file or directory: 'processed/i/462.libquantum-s0.train_1.pt'
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.1716676340 - test_loss: 0.3377211684
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.0419903944 - test_loss: 0.3963697587
+Early Stop Left: 4
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.0236268782 - test_loss: 0.4196388617
+Early Stop Left: 3
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0146181532 - test_loss: 0.4544416597
+Early Stop Left: 2
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0105178086 - test_loss: 0.4782374947
+Early Stop Left: 1
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0098556970 - test_loss: 0.5037829788
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/80 [00:00<?, ?it/s] 15%|█▌        | 12/80 [00:00<00:00, 113.52it/s] 30%|███       | 24/80 [00:00<00:00, 115.23it/s] 45%|████▌     | 36/80 [00:00<00:00, 115.77it/s] 60%|██████    | 48/80 [00:00<00:00, 112.81it/s] 75%|███████▌  | 60/80 [00:00<00:00, 113.99it/s] 90%|█████████ | 72/80 [00:00<00:00, 114.69it/s]100%|██████████| 80/80 [00:00<00:00, 114.89it/s]
+Best micro threshold=0.531031, fscore=0.737
+p,r,f1: 0.9631336689580993 0.5963365776444984 0.7365986458695486
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9540330234595542 0.598469026067393 0.7355342488081649
+{'model': 'vitt',
+ 'app': '619.lbm-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.5310307145118713,
+                 'p': 0.9631336689580993,
+                 'r': 0.5963365776444984,
+                 'f1': 0.7365986458695486},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9540330234595542,
+                 'r': 0.598469026067393,
+                 'f1': 0.7355342488081649}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.1716676340 - test_loss: 0.3377211684
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.0419903944 - test_loss: 0.3963697587
+Early Stop Left: 4
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.0236268782 - test_loss: 0.4196388617
+Early Stop Left: 3
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0146181532 - test_loss: 0.4544416597
+Early Stop Left: 2
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0105178086 - test_loss: 0.4782374947
+Early Stop Left: 1
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0098556970 - test_loss: 0.5037829788
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/80 [00:00<?, ?it/s]  1%|▏         | 1/80 [00:00<00:34,  2.26it/s] 16%|█▋        | 13/80 [00:00<00:02, 30.75it/s] 31%|███▏      | 25/80 [00:00<00:01, 53.44it/s] 46%|████▋     | 37/80 [00:00<00:00, 70.44it/s] 61%|██████▏   | 49/80 [00:00<00:00, 83.44it/s] 76%|███████▋  | 61/80 [00:00<00:00, 92.93it/s] 91%|█████████▏| 73/80 [00:01<00:00, 99.85it/s]100%|██████████| 80/80 [00:01<00:00, 71.57it/s]
+Best micro threshold=0.531031, fscore=0.737
+p,r,f1: 0.9631336689580993 0.5963365776444984 0.7365986458695486
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9540330234595542 0.598469026067393 0.7355342488081649
+{'model': 'vitt',
+ 'app': '619.lbm-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.5310307145118713,
+                 'p': 0.9631336689580993,
+                 'r': 0.5963365776444984,
+                 'f1': 0.7365986458695486},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9540330234595542,
+                 'r': 0.598469026067393,
+                 'f1': 0.7355342488081649}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm

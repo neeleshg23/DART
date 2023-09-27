@@ -1,0 +1,483 @@
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               3,072
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 2,816
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        2,230,016
+│    │    └─ModuleList: 3-2                        2,230,016
+│    │    └─ModuleList: 3-3                        2,230,016
+│    │    └─ModuleList: 3-4                        2,230,016
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              512
+│    └─Linear: 2-5                                 65,792
+===========================================================================
+Total params: 8,992,256
+Trainable params: 8,992,256
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.0522702757 - test_loss: 0.0428904901
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.0228784036 - test_loss: 0.0422588541
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.0216878604 - test_loss: 0.0814220518
+Early Stop Left: 4
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0202073826 - test_loss: 0.0580171790
+Early Stop Left: 3
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0198736485 - test_loss: 0.0836014380
+Early Stop Left: 2
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0195528684 - test_loss: 0.0607658680
+Early Stop Left: 1
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.0205946013 - test_loss: 0.0784483717
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s]  6%|▌         | 12/205 [00:00<00:01, 111.31it/s] 12%|█▏        | 24/205 [00:00<00:01, 114.78it/s] 18%|█▊        | 36/205 [00:00<00:01, 114.70it/s] 23%|██▎       | 48/205 [00:00<00:01, 115.13it/s] 29%|██▉       | 60/205 [00:00<00:01, 115.54it/s] 35%|███▌      | 72/205 [00:00<00:01, 116.52it/s] 41%|████      | 84/205 [00:00<00:01, 116.08it/s] 47%|████▋     | 96/205 [00:00<00:00, 116.44it/s] 53%|█████▎    | 108/205 [00:00<00:00, 116.35it/s] 59%|█████▊    | 120/205 [00:01<00:00, 116.68it/s] 64%|██████▍   | 132/205 [00:01<00:00, 116.07it/s] 70%|███████   | 144/205 [00:01<00:00, 116.18it/s] 76%|███████▌  | 156/205 [00:01<00:00, 116.36it/s] 82%|████████▏ | 168/205 [00:01<00:00, 116.59it/s] 88%|████████▊ | 180/205 [00:01<00:00, 116.61it/s] 94%|█████████▎| 192/205 [00:01<00:00, 117.03it/s]100%|█████████▉| 204/205 [00:01<00:00, 115.69it/s]100%|██████████| 205/205 [00:01<00:00, 116.07it/s]
+Best micro threshold=0.753600, fscore=0.992
+p,r,f1: 0.9838558392431814 0.9994604543338248 0.9915967586950065
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vitt',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.7536002993583679,
+                 'p': 0.9838558392431814,
+                 'r': 0.9994604543338248,
+                 'f1': 0.9915967586950065},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.4729292184 - test_loss: 0.3501713354
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.2404719189 - test_loss: 0.1871908873
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.1503931886 - test_loss: 0.1173042391
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.1154762516 - test_loss: 0.0859217172
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.1022119832 - test_loss: 0.0711333345
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0973867158 - test_loss: 0.0640415861
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.0957686713 - test_loss: 0.0607974264
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.0952812956 - test_loss: 0.0593438146
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.0951489228 - test_loss: 0.0588300549
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.0951140603 - test_loss: 0.0587735011
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.0951034141 - test_loss: 0.0586235418
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.0950954091 - test_loss: 0.0584723474
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.0950860384 - test_loss: 0.0587046184
+Early Stop Left: 4
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.0950660104 - test_loss: 0.0585155259
+Early Stop Left: 3
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.0950178776 - test_loss: 0.0585467938
+Early Stop Left: 2
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.0948962640 - test_loss: 0.0601831913
+Early Stop Left: 1
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.0943748426 - test_loss: 0.0636054572
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s] 10%|▉         | 20/205 [00:00<00:00, 194.67it/s] 20%|█▉        | 40/205 [00:00<00:00, 193.88it/s] 29%|██▉       | 60/205 [00:00<00:00, 194.17it/s] 39%|███▉      | 80/205 [00:00<00:00, 192.98it/s] 49%|████▉     | 100/205 [00:00<00:00, 192.30it/s] 59%|█████▊    | 120/205 [00:00<00:00, 192.47it/s] 68%|██████▊   | 140/205 [00:00<00:00, 192.68it/s] 78%|███████▊  | 160/205 [00:00<00:00, 193.14it/s] 88%|████████▊ | 180/205 [00:00<00:00, 193.61it/s] 98%|█████████▊| 200/205 [00:01<00:00, 193.84it/s]100%|██████████| 205/205 [00:01<00:00, 193.56it/s]
+Best micro threshold=0.940127, fscore=0.991
+p,r,f1: 0.9830463197274706 0.9999998484422286 0.9914506142300132
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vit',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.9401269555091858,
+                 'p': 0.9830463197274706,
+                 'r': 0.9999998484422286,
+                 'f1': 0.9914506142300132},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.4043358771 - test_loss: 0.3549193606
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.2279546416 - test_loss: 0.2003675802
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.1708267642 - test_loss: 0.1379596192
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.1538289798 - test_loss: 0.1129312543
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.1493231298 - test_loss: 0.1033461481
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.1482573356 - test_loss: 0.1000078572
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.1480269941 - test_loss: 0.0992436362
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.1479762197 - test_loss: 0.0987929375
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.1479641464 - test_loss: 0.0987262340
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.1479608500 - test_loss: 0.0989076242
+Early Stop Left: 4
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.1479593144 - test_loss: 0.0988239118
+Early Stop Left: 3
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.1479565091 - test_loss: 0.0984883729
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.1479532387 - test_loss: 0.0988546170
+Early Stop Left: 4
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.1479482091 - test_loss: 0.0985499023
+Early Stop Left: 3
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.1479395278 - test_loss: 0.0988119751
+Early Stop Left: 2
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.1479304529 - test_loss: 0.0991972358
+Early Stop Left: 1
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.1479155123 - test_loss: 0.0990450160
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s] 10%|▉         | 20/205 [00:00<00:00, 196.10it/s] 20%|█▉        | 40/205 [00:00<00:00, 193.88it/s] 29%|██▉       | 60/205 [00:00<00:00, 194.15it/s] 39%|███▉      | 80/205 [00:00<00:00, 194.50it/s] 49%|████▉     | 100/205 [00:00<00:00, 194.39it/s] 59%|█████▊    | 120/205 [00:00<00:00, 194.36it/s] 68%|██████▊   | 140/205 [00:00<00:00, 189.79it/s] 78%|███████▊  | 160/205 [00:00<00:00, 186.81it/s] 88%|████████▊ | 180/205 [00:00<00:00, 187.88it/s] 98%|█████████▊| 200/205 [00:01<00:00, 189.59it/s]100%|██████████| 205/205 [00:01<00:00, 191.22it/s]
+Best micro threshold=0.867186, fscore=0.991
+p,r,f1: 0.9830463197274706 0.9999998484422286 0.9914506142300132
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vit',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.8671858906745911,
+                 'p': 0.9830463197274706,
+                 'r': 0.9999998484422286,
+                 'f1': 0.9914506142300132},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.4957471977 - test_loss: 0.3490610930
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.2440331641 - test_loss: 0.1841566574
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.1414788920 - test_loss: 0.1128525191
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0984433257 - test_loss: 0.0804517751
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0800023830 - test_loss: 0.0648199494
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0720529422 - test_loss: 0.0569026238
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.0687148600 - test_loss: 0.0527713389
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.0673936138 - test_loss: 0.0506000310
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.0669164344 - test_loss: 0.0495168396
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.0667624853 - test_loss: 0.0490592048
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.0667155100 - test_loss: 0.0488199247
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.0666955185 - test_loss: 0.0486970311
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.0666795823 - test_loss: 0.0487661660
+Early Stop Left: 4
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.0666447478 - test_loss: 0.0486004560
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.0665186128 - test_loss: 0.0485454068
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.0658770998 - test_loss: 0.0559405921
+Early Stop Left: 4
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.0652055797 - test_loss: 0.0550956649
+Early Stop Left: 3
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.0650378771 - test_loss: 0.0559799337
+Early Stop Left: 2
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.0649257413 - test_loss: 0.0598591575
+Early Stop Left: 1
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.0648664159 - test_loss: 0.0542613932
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s]  9%|▉         | 18/205 [00:00<00:01, 173.31it/s] 18%|█▊        | 36/205 [00:00<00:00, 172.58it/s] 26%|██▋       | 54/205 [00:00<00:00, 172.49it/s] 35%|███▌      | 72/205 [00:00<00:00, 173.10it/s] 44%|████▍     | 90/205 [00:00<00:00, 172.37it/s] 53%|█████▎    | 108/205 [00:00<00:00, 173.69it/s] 61%|██████▏   | 126/205 [00:00<00:00, 172.25it/s] 70%|███████   | 144/205 [00:00<00:00, 171.93it/s] 79%|███████▉  | 162/205 [00:00<00:00, 171.59it/s] 88%|████████▊ | 180/205 [00:01<00:00, 171.97it/s] 97%|█████████▋| 198/205 [00:01<00:00, 173.65it/s]100%|██████████| 205/205 [00:01<00:00, 172.99it/s]
+Best micro threshold=0.938169, fscore=0.991
+p,r,f1: 0.9830605066829604 0.9999898456293164 0.9914529131102641
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vit',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.9381691217422485,
+                 'p': 0.9830605066829604,
+                 'r': 0.9999898456293164,
+                 'f1': 0.9914529131102641},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+Generation start
+preprocessing_gen with context
+b4 model prediction col0
+ Index(['id', 'cycle', 'addr', 'ip', 'hit', 'raw', 'block_address',
+       'page_address', 'page_offset', 'block_index', 'block_addr_delta',
+       'patch', 'past', 'past_ip', 'past_page'],
+      dtype='object')
+predicting
+  0%|          | 0/206 [00:00<?, ?it/s]  0%|          | 1/206 [00:01<05:25,  1.59s/it] 11%|█         | 23/206 [00:01<00:09, 18.74it/s] 22%|██▏       | 46/206 [00:01<00:03, 41.01it/s] 34%|███▍      | 70/206 [00:01<00:02, 66.81it/s] 46%|████▌     | 94/206 [00:01<00:01, 93.50it/s] 57%|█████▋    | 118/206 [00:02<00:00, 119.95it/s] 69%|██████▉   | 142/206 [00:02<00:00, 144.07it/s] 80%|████████  | 165/206 [00:02<00:00, 162.87it/s] 91%|█████████▏| 188/206 [00:02<00:00, 177.04it/s]100%|██████████| 206/206 [00:02<00:00, 82.89it/s] 
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+post_processing, opt_threshold<0.9
+after delta filter
+ Index(['id', 'pred_hex'], dtype='object')
+                 app  mean  max  min  median
+0  462.libquantum-s0   1.0  1.0  1.0     1.0
+Done: results saved at: res/462.libquantum-s0.vit.stu.95.0.pkl.degree_stats.csv
+Generation start
+preprocessing_gen with context
+b4 model prediction col0
+ Index(['id', 'cycle', 'addr', 'ip', 'hit', 'raw', 'block_address',
+       'page_address', 'page_offset', 'block_index', 'block_addr_delta',
+       'patch', 'past', 'past_ip', 'past_page'],
+      dtype='object')
+predicting
+  0%|          | 0/206 [00:00<?, ?it/s]  0%|          | 1/206 [00:01<06:10,  1.81s/it]  5%|▍         | 10/206 [00:01<00:27,  7.06it/s]  9%|▉         | 19/206 [00:02<00:12, 14.75it/s] 14%|█▎        | 28/206 [00:02<00:07, 23.39it/s] 18%|█▊        | 37/206 [00:02<00:05, 32.56it/s] 22%|██▏       | 46/206 [00:02<00:03, 41.69it/s] 27%|██▋       | 55/206 [00:02<00:03, 50.17it/s] 31%|███       | 64/206 [00:02<00:02, 57.69it/s] 35%|███▌      | 73/206 [00:02<00:02, 63.62it/s] 40%|███▉      | 82/206 [00:02<00:01, 69.06it/s] 44%|████▍     | 91/206 [00:02<00:01, 72.83it/s] 49%|████▊     | 100/206 [00:02<00:01, 75.75it/s] 53%|█████▎    | 109/206 [00:03<00:01, 77.52it/s] 57%|█████▋    | 118/206 [00:03<00:01, 79.76it/s] 62%|██████▏   | 127/206 [00:03<00:00, 80.88it/s] 66%|██████▌   | 136/206 [00:03<00:00, 81.57it/s] 70%|███████   | 145/206 [00:03<00:00, 82.22it/s] 75%|███████▍  | 154/206 [00:03<00:00, 82.53it/s] 79%|███████▉  | 163/206 [00:03<00:00, 82.76it/s] 83%|████████▎ | 172/206 [00:03<00:00, 82.60it/s] 88%|████████▊ | 181/206 [00:03<00:00, 80.51it/s] 92%|█████████▏| 190/206 [00:04<00:00, 80.87it/s] 97%|█████████▋| 199/206 [00:04<00:00, 81.05it/s]100%|██████████| 206/206 [00:04<00:00, 48.15it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+post_processing, opt_threshold<0.9
+after delta filter
+ Index(['id', 'pred_hex'], dtype='object')
+                 app  mean  max  min  median
+0  462.libquantum-s0   1.0  1.0  1.0     1.0
+Done: results saved at: res/462.libquantum-s0.vitt.pkl.degree_stats.csv
