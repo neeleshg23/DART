@@ -118,8 +118,9 @@ res_path += ".k."+str(K)+".c."+str(N)+".fine"
 
 ##
 # check correctness of manual implementation
-y_score_by_whole_train = model(train_data).detach().numpy()
-y_score_by_whole_test = model(test_data).detach().numpy()
+sigmoid = nn.Sigmoid()
+y_score_by_whole_train = sigmoid(model(train_data)).detach().numpy()
+y_score_by_whole_test = sigmoid(model(test_data)).detach().numpy()
 
 vit_manual_amm = ViT_Manual(model, N_SUBSPACE, K_CLUSTER)
 
@@ -133,7 +134,7 @@ print("Manual and Torch results cosine similarity (Test):", _cossim(y_score_by_w
 
 
 print("start table training with fine tuning...")
-layer_amm_res_train, mm_amm_res_train = vit_manual_amm.train_amm(train_data)
+layer_amm_res_train, mm_amm_res_train = vit_manual_amm.fine_tune(train_data, mm_exact_res_train.copy())
 print("start table evaluation...")
 
 start_time = time.time()

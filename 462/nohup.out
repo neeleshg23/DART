@@ -481,3 +481,2239 @@ after delta filter
                  app  mean  max  min  median
 0  462.libquantum-s0   1.0  1.0  1.0     1.0
 Done: results saved at: res/462.libquantum-s0.vitt.pkl.degree_stats.csv
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Traceback (most recent call last):
+  File "src/3_vit.py", line 110, in <module>
+    train_data, train_target, test_data, test_target, all_params, best_threshold = load_data_n_model(model_save_path, res_path)
+  File "src/3_vit.py", line 55, in load_data_n_model
+    with open(model_save_path+'.tensor_dict.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/433.milc-s0.vit.stu.90.0.pkl.tensor_dict.pkl'
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Traceback (most recent call last):
+  File "src/3_vit.py", line 110, in <module>
+    train_data, train_target, test_data, test_target, all_params, best_threshold = load_data_n_model(model_save_path, res_path)
+  File "src/3_vit.py", line 55, in load_data_n_model
+    with open(model_save_path+'.tensor_dict.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/433.milc-s0.vit.stu.90.0.pkl.tensor_dict.pkl'
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Traceback (most recent call last):
+  File "src/3_vit.py", line 110, in <module>
+    train_data, train_target, test_data, test_target, all_params, best_threshold = load_data_n_model(model_save_path, res_path)
+  File "src/3_vit.py", line 55, in load_data_n_model
+    with open(model_save_path+'.tensor_dict.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/433.milc-s0.vit.stu.90.0.pkl.tensor_dict.pkl'
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Traceback (most recent call last):
+  File "src/3_vit.py", line 110, in <module>
+    train_data, train_target, test_data, test_target, all_params, best_threshold = load_data_n_model(model_save_path, res_path)
+  File "src/3_vit.py", line 55, in load_data_n_model
+    with open(model_save_path+'.tensor_dict.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/433.milc-s0.vit.stu.90.0.pkl.tensor_dict.pkl'
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Traceback (most recent call last):
+  File "src/3_vit.py", line 110, in <module>
+    train_data, train_target, test_data, test_target, all_params, best_threshold = load_data_n_model(model_save_path, res_path)
+  File "src/3_vit.py", line 55, in load_data_n_model
+    with open(model_save_path+'.tensor_dict.pkl', 'rb') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'model/433.milc-s0.vit.stu.90.0.pkl.tensor_dict.pkl'
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:46: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  kmeans1 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, :D//2])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:46: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  kmeans1 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, :D//2])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (2) found smaller than n_clusters (4). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.9999997
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.218, 0.305
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.00366, 0.00221
+--- total mse / var(X): 0.153
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.0974, 0.1
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.0168, 0.0163
+--- total mse / var(X): 0.0582
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.255, 0.261
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.137, 0.134
+--- total mse / var(X): 0.197
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.175, 0.166
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.226, 0.237
+--- total mse / var(X): 0.202
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.00343, 0.00512
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.0326, 0.0166
+--- total mse / var(X): 0.0108
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.215, 0.218
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.259, 0.256
+--- total mse / var(X): 0.237
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.00381, 0.00148
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 3.5e-07, 5.63e-07
+--- total mse / var(X): 0.000741
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.0136, 0.0134
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.0767, 0.0782
+--- total mse / var(X): 0.0458
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.00106, 0.000943
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.00178, 0.00198
+--- total mse / var(X): 0.00146
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 0.000238, 0.000152
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 16, 4
+mse / {var(X_subs), var(X)}: 3.85e-05, 5.25e-05
+--- total mse / var(X): 0.000102
+start table evaluation...
+Elapsed time: 116.92339396476746 seconds
+Cosine similarity between AMM and exact (Train): 0.99998766
+Cosine similarity between AMM and exact (Test): 0.99997884
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16,
+                             16],
+               'cossim_layer_train': [0.992205023765564,
+                                      0.9882912039756775,
+                                      0.9870885014533997,
+                                      0.9999876618385315],
+               'cossim_layer_test': [0.9821855425834656,
+                                     0.985470712184906,
+                                     0.9842981100082397,
+                                     0.9999788403511047],
+               'cossim_amm_train': [0.984262228012085,
+                                    0.9779192805290222,
+                                    0.9143030047416687,
+                                    0.8953810334205627,
+                                    0.9562426209449768,
+                                    0.9715214371681213,
+                                    0.9771029353141785,
+                                    0.9989858269691467],
+               'cossim_amm_test': [0.9662219285964966,
+                                   0.9753377437591553,
+                                   0.9127565026283264,
+                                   0.8888059854507446,
+                                   0.9485949873924255,
+                                   0.9686425924301147,
+                                   0.9748637080192566,
+                                   0.9984761476516724],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 16),
+                              (192, 2, 16),
+                              (16, 16, 2),
+                              (16, 16, 2),
+                              (32, 2, 16),
+                              (32, 2, 16),
+                              (32, 2, 16),
+                              (256, 2, 16)],
+               'lut_total_size': 19456}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (6). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.99999994
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.154, 0.215
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.00138, 0.000832
+--- total mse / var(X): 0.108
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0106, 0.0109
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0107, 0.0104
+--- total mse / var(X): 0.0106
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0632, 0.0649
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0291, 0.0283
+--- total mse / var(X): 0.0466
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0352, 0.0336
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0643, 0.0673
+--- total mse / var(X): 0.0504
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.00227, 0.00368
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.000998, 0.000381
+--- total mse / var(X): 0.00203
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.106, 0.106
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.129, 0.128
+--- total mse / var(X): 0.117
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.00502, 0.00189
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.000917, 0.00149
+--- total mse / var(X): 0.00169
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0107, 0.0104
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.0109, 0.0112
+--- total mse / var(X): 0.0108
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.00458, 0.00407
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 0.00364, 0.00404
+--- total mse / var(X): 0.00406
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 4.63e-08, 5.34e-08
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 32, 6
+mse / {var(X_subs), var(X)}: 3e-09, 2.54e-09
+--- total mse / var(X): 2.8e-08
+start table evaluation...
+Elapsed time: 121.81079602241516 seconds
+Cosine similarity between AMM and exact (Train): 0.9999927
+Cosine similarity between AMM and exact (Test): 0.9999843
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32,
+                             32],
+               'cossim_layer_train': [0.9945094585418701,
+                                      0.9937084913253784,
+                                      0.9929966330528259,
+                                      0.9999927282333374],
+               'cossim_layer_test': [0.986270010471344,
+                                     0.9901130795478821,
+                                     0.9893276691436768,
+                                     0.9999843239784241],
+               'cossim_amm_train': [0.9889515042304993,
+                                    0.9953600764274597,
+                                    0.9682527184486389,
+                                    0.9377561211585999,
+                                    0.9737586379051208,
+                                    0.9887022376060486,
+                                    0.9892395734786987,
+                                    0.9994903206825256],
+               'cossim_amm_test': [0.9739676117897034,
+                                   0.9926953911781311,
+                                   0.9636696577072144,
+                                   0.9291589260101318,
+                                   0.9600671529769897,
+                                   0.9847842454910278,
+                                   0.9867461919784546,
+                                   0.9989479184150696],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 32),
+                              (192, 2, 32),
+                              (32, 32, 2),
+                              (32, 32, 2),
+                              (32, 2, 32),
+                              (32, 2, 32),
+                              (32, 2, 32),
+                              (256, 2, 32)],
+               'lut_total_size': 40960}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (8). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.99999994
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.0942, 0.132
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.000562, 0.000338
+--- total mse / var(X): 0.066
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00795, 0.00817
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00751, 0.0073
+--- total mse / var(X): 0.00774
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00377, 0.00388
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00377, 0.00366
+--- total mse / var(X): 0.00377
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00416, 0.00397
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00404, 0.00422
+--- total mse / var(X): 0.00409
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00052, 0.000848
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00169, 0.000623
+--- total mse / var(X): 0.000736
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.0261, 0.0263
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.0507, 0.0505
+--- total mse / var(X): 0.0384
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00175, 0.000777
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.000342, 0.000532
+--- total mse / var(X): 0.000654
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00789, 0.00776
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00716, 0.00728
+--- total mse / var(X): 0.00752
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00298, 0.00269
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 0.00264, 0.0029
+--- total mse / var(X): 0.00279
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 2.44e-05, 2.29e-05
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 64, 8
+mse / {var(X_subs), var(X)}: 1.27e-05, 1.34e-05
+--- total mse / var(X): 1.82e-05
+start table evaluation...
+Elapsed time: 162.4241235256195 seconds
+Cosine similarity between AMM and exact (Train): 0.9999956
+Cosine similarity between AMM and exact (Test): 0.9999868
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64,
+                             64],
+               'cossim_layer_train': [0.9966230392456055,
+                                      0.9963746666908264,
+                                      0.9957687854766846,
+                                      0.9999955892562866],
+               'cossim_layer_test': [0.9874213337898254,
+                                     0.9931040406227112,
+                                     0.9921165108680725,
+                                     0.9999868273735046],
+               'cossim_amm_train': [0.9932043552398682,
+                                    0.9967849850654602,
+                                    0.9920564293861389,
+                                    0.972030520439148,
+                                    0.9845986366271973,
+                                    0.9928820133209229,
+                                    0.9929162859916687,
+                                    0.9996947646141052],
+               'cossim_amm_test': [0.9762237668037415,
+                                   0.9931179285049438,
+                                   0.9849885106086731,
+                                   0.9615443348884583,
+                                   0.972822368144989,
+                                   0.988041877746582,
+                                   0.9892340302467346,
+                                   0.9991039633750916],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 64),
+                              (192, 2, 64),
+                              (64, 64, 2),
+                              (64, 64, 2),
+                              (32, 2, 64),
+                              (32, 2, 64),
+                              (32, 2, 64),
+                              (256, 2, 64)],
+               'lut_total_size': 90112}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.99999964
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0565, 0.0788
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00026, 0.000158
+--- total mse / var(X): 0.0395
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00474, 0.00487
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00494, 0.0048
+--- total mse / var(X): 0.00483
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00243, 0.0025
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00302, 0.00294
+--- total mse / var(X): 0.00272
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00341, 0.00325
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00299, 0.00313
+--- total mse / var(X): 0.00319
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000357, 0.000582
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00151, 0.000561
+--- total mse / var(X): 0.000572
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00862, 0.00866
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00716, 0.00713
+--- total mse / var(X): 0.0079
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0044, 0.00202
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0021, 0.00323
+--- total mse / var(X): 0.00263
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00504, 0.00493
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00494, 0.00504
+--- total mse / var(X): 0.00499
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00197, 0.00177
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00274, 0.00301
+--- total mse / var(X): 0.00239
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000279, 0.000263
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000347, 0.000367
+--- total mse / var(X): 0.000315
+start table evaluation...
+Elapsed time: 182.69580793380737 seconds
+Cosine similarity between AMM and exact (Train): 0.99999803
+Cosine similarity between AMM and exact (Test): 0.99998677
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9979287385940552,
+                                      0.9981563091278076,
+                                      0.9977830648422241,
+                                      0.9999980330467224],
+               'cossim_layer_test': [0.9887529015541077,
+                                     0.9940768480300903,
+                                     0.9931349754333496,
+                                     0.9999867677688599],
+               'cossim_amm_train': [0.9958229064941406,
+                                    0.9980148077011108,
+                                    0.9952735900878906,
+                                    0.9879955649375916,
+                                    0.9922624826431274,
+                                    0.9958024621009827,
+                                    0.9956238269805908,
+                                    0.9998434782028198],
+               'cossim_amm_test': [0.9788340330123901,
+                                   0.9938243627548218,
+                                   0.9862306118011475,
+                                   0.97430020570755,
+                                   0.9766174554824829,
+                                   0.9893588423728943,
+                                   0.9899947643280029,
+                                   0.9991828203201294],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 128),
+                              (192, 2, 128),
+                              (128, 128, 2),
+                              (128, 128, 2),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (256, 2, 128)],
+               'lut_total_size': 212992}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (16). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.9999998
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.0293, 0.0409
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.000264, 0.000159
+--- total mse / var(X): 0.0205
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00322, 0.00331
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00288, 0.0028
+--- total mse / var(X): 0.00305
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.0019, 0.00195
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00238, 0.00231
+--- total mse / var(X): 0.00213
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00238, 0.00227
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00238, 0.00249
+--- total mse / var(X): 0.00238
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.000275, 0.000449
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00109, 0.000402
+--- total mse / var(X): 0.000425
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00233, 0.00234
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00475, 0.00473
+--- total mse / var(X): 0.00353
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00805, 0.00379
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00308, 0.00471
+--- total mse / var(X): 0.00425
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00363, 0.00356
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00305, 0.00311
+--- total mse / var(X): 0.00333
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00151, 0.00134
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.00209, 0.00232
+--- total mse / var(X): 0.00183
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.000169, 0.000158
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 256, 16
+mse / {var(X_subs), var(X)}: 0.000167, 0.000178
+--- total mse / var(X): 0.000168
+start table evaluation...
+Elapsed time: 299.71969652175903 seconds
+Cosine similarity between AMM and exact (Train): 0.9999984
+Cosine similarity between AMM and exact (Test): 0.99998426
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256,
+                             256],
+               'cossim_layer_train': [0.998917281627655,
+                                      0.9990776777267456,
+                                      0.9988537430763245,
+                                      0.9999983906745911],
+               'cossim_layer_test': [0.9898186326026917,
+                                     0.9944601655006409,
+                                     0.99338299036026,
+                                     0.9999842643737793],
+               'cossim_amm_train': [0.9978249073028564,
+                                    0.9987671375274658,
+                                    0.9969315528869629,
+                                    0.9950451850891113,
+                                    0.996173083782196,
+                                    0.9975742101669312,
+                                    0.9974234104156494,
+                                    0.9999099969863892],
+               'cossim_amm_test': [0.9808626770973206,
+                                   0.9941115379333496,
+                                   0.9863381385803223,
+                                   0.9800880551338196,
+                                   0.977501630783081,
+                                   0.9897416234016418,
+                                   0.9904582500457764,
+                                   0.9991240501403809],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 256),
+                              (192, 2, 256),
+                              (256, 256, 2),
+                              (256, 256, 2),
+                              (32, 2, 256),
+                              (32, 2, 256),
+                              (32, 2, 256),
+                              (256, 2, 256)],
+               'lut_total_size': 557056}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (23). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 1.0
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.016, 0.0223
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000493, 0.0003
+--- total mse / var(X): 0.0113
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00178, 0.00183
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00164, 0.00159
+--- total mse / var(X): 0.00171
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00146, 0.0015
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00164, 0.0016
+--- total mse / var(X): 0.00155
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00162, 0.00155
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.0017, 0.00178
+--- total mse / var(X): 0.00166
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000212, 0.000346
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000839, 0.00031
+--- total mse / var(X): 0.000328
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00111, 0.00111
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.0017, 0.00169
+--- total mse / var(X): 0.0014
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00716, 0.00343
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00296, 0.0045
+--- total mse / var(X): 0.00396
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00227, 0.00222
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00186, 0.0019
+--- total mse / var(X): 0.00206
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000991, 0.000882
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.00112, 0.00124
+--- total mse / var(X): 0.00106
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000233, 0.00022
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 512, 23
+mse / {var(X_subs), var(X)}: 0.000133, 0.000141
+--- total mse / var(X): 0.00018
+start table evaluation...
+Elapsed time: 443.189909696579 seconds
+Cosine similarity between AMM and exact (Train): 0.9999989
+Cosine similarity between AMM and exact (Test): 0.9999867
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512,
+                             512],
+               'cossim_layer_train': [0.9993889927864075,
+                                      0.9995294213294983,
+                                      0.999414324760437,
+                                      0.999998927116394],
+               'cossim_layer_test': [0.9907905459403992,
+                                     0.9951033592224121,
+                                     0.9941887259483337,
+                                     0.9999867081642151],
+               'cossim_amm_train': [0.9987707734107971,
+                                    0.9993090033531189,
+                                    0.99811190366745,
+                                    0.9980310797691345,
+                                    0.9980743527412415,
+                                    0.9986965656280518,
+                                    0.9986307621002197,
+                                    0.9999459385871887],
+               'cossim_amm_test': [0.9827264547348022,
+                                   0.9946155548095703,
+                                   0.9873685836791992,
+                                   0.9825495481491089,
+                                   0.9801719188690186,
+                                   0.9908111691474915,
+                                   0.9915878772735596,
+                                   0.9992597103118896],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 512),
+                              (192, 2, 512),
+                              (512, 512, 2),
+                              (512, 512, 2),
+                              (32, 2, 512),
+                              (32, 2, 512),
+                              (32, 2, 512),
+                              (256, 2, 512)],
+               'lut_total_size': 1638400}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:46: ConvergenceWarning: Number of distinct clusters (10) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans1 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, :D//2])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (10) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.99999976
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0479, 0.0479
+--- total mse / var(X): 0.0479
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00522, 0.00522
+--- total mse / var(X): 0.00522
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0026, 0.0026
+--- total mse / var(X): 0.0026
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00262, 0.00262
+--- total mse / var(X): 0.00262
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00107, 0.00107
+--- total mse / var(X): 0.00107
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00576, 0.00576
+--- total mse / var(X): 0.00576
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00282, 0.00282
+--- total mse / var(X): 0.00282
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00545, 0.00545
+--- total mse / var(X): 0.00545
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00134, 0.00134
+--- total mse / var(X): 0.00134
+running kmeans in subspace 1/1... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 7.89e-08, 7.89e-08
+--- total mse / var(X): 7.89e-08
+start table evaluation...
+Elapsed time: 166.227281332016 seconds
+Cosine similarity between AMM and exact (Train): 0.99999696
+Cosine similarity between AMM and exact (Test): 0.9999882
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9974948763847351,
+                                      0.9978874325752258,
+                                      0.9973790645599365,
+                                      0.9999969601631165],
+               'cossim_layer_test': [0.9789890646934509,
+                                     0.9934054017066956,
+                                     0.9926619529724121,
+                                     0.9999881982803345],
+               'cossim_amm_train': [0.994957447052002,
+                                    0.9978591799736023,
+                                    0.9947716593742371,
+                                    0.9887332916259766,
+                                    0.9913010001182556,
+                                    0.9949901700019836,
+                                    0.9950631260871887,
+                                    0.9998005628585815],
+               'cossim_amm_test': [0.9596615433692932,
+                                   0.9943045377731323,
+                                   0.9880992770195007,
+                                   0.9788162708282471,
+                                   0.9803008437156677,
+                                   0.990430474281311,
+                                   0.9906574487686157,
+                                   0.9992502927780151],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 1, 128),
+                              (192, 1, 128),
+                              (128, 128, 1),
+                              (128, 128, 1),
+                              (32, 1, 128),
+                              (32, 1, 128),
+                              (32, 1, 128),
+                              (256, 1, 128)],
+               'lut_total_size': 106496}}
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.99999994
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 3.42e-09, 4.98e-09
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 2.16e-05, 3.23e-05
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000131, 5.99e-05
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000105, 0.000122
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 4.2e-05, 4.37e-05
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000141, 0.000134
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000185, 0.000267
+running kmeans in subspace 8/8... X.shape:  (100000, 2)
+k:  128
+nnz_rows:  0
+mse / {var(X_subs), var(X)}: 0, 0
+--- total mse / var(X): 8.24e-05
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00238, 0.00295
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00253, 0.00224
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00413, 0.00438
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00371, 0.00343
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00301, 0.00309
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00353, 0.00333
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0033, 0.0039
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0025, 0.00184
+--- total mse / var(X): 0.00315
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00281, 0.00349
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00261, 0.00285
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00321, 0.00266
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00249, 0.00235
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0025, 0.00274
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00331, 0.00358
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00341, 0.00282
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00316, 0.00281
+--- total mse / var(X): 0.00291
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00338, 0.00323
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00351, 0.00289
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00416, 0.00432
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00239, 0.00239
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00266, 0.00289
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00372, 0.00455
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00321, 0.00355
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00346, 0.00265
+--- total mse / var(X): 0.00331
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000556, 0.000415
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00015, 1.96e-05
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000135, 7.5e-05
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 6.83e-05, 0.00034
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00023, 2.63e-05
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00186, 0.000275
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00149, 0.000292
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000766, 0.000863
+--- total mse / var(X): 0.000288
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 6.69e-08, 7.15e-08
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000164, 0.000112
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000175, 9.76e-05
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000164, 0.000168
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000161, 0.00011
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00399, 0.00481
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00331, 0.00479
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00371, 0.00494
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 1.0000001
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00769, 0.0113
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 4.47e-05, 3.64e-05
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000771, 0.00132
+running kmeans in subspace 4/4... X.shape:  (100000, 3)
+k:  128
+nnz_rows:  0
+mse / {var(X_subs), var(X)}: 0, 0
+--- total mse / var(X): 0.00317
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00342, 0.00364
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00559, 0.00554
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00435, 0.00429
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00474, 0.00454
+--- total mse / var(X): 0.0045
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00286, 0.00333
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00298, 0.00265
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00309, 0.00336
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00316, 0.00271
+--- total mse / var(X): 0.00301
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0036, 0.0032
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0032, 0.00326
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00295, 0.00341
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00294, 0.00275
+--- total mse / var(X): 0.00315
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000928, 0.000662
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000164, 0.000416
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00228, 0.000226
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00113, 0.000722
+--- total mse / var(X): 0.000507
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00376, 0.00434
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00296, 0.00254
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00635, 0.0062
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00621, 0.0063
+--- total mse / var(X): 0.00484
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00747, 0.00421
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0112, 0.00399
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00411, 0.00717
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0048, 0.00642
+--- total mse / var(X): 0.00545
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00411, 0.00395
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00553, 0.00551
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00432, 0.00465
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00472, 0.00456
+--- total mse / var(X): 0.00467
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00205, 0.00202
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00265, 0.00212
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00374, 0.00485
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00198, 0.00182
+--- total mse / var(X): 0.0027
+running kmeans in subspace 1/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00164, 0.00123
+running kmeans in subspace 2/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00116, 0.00132
+running kmeans in subspace 3/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00131, 0.00146
+running kmeans in subspace 4/4... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00158, 0.00156
+--- total mse / var(X): 0.00139
+start table evaluation...
+Elapsed time: 363.0206997394562 seconds
+Cosine similarity between AMM and exact (Train): 0.9999976
+Cosine similarity between AMM and exact (Test): 0.9999921
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4, 4],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9998411536216736,
+                                      0.998906135559082,
+                                      0.9985977411270142,
+                                      0.999997615814209],
+               'cossim_layer_test': [0.9952194094657898,
+                                     0.996548056602478,
+                                     0.9960870742797852,
+                                     0.9999920725822449],
+               'cossim_amm_train': [0.9996813535690308,
+                                    0.9984287023544312,
+                                    0.9962292313575745,
+                                    0.9938179850578308,
+                                    0.9948105812072754,
+                                    0.9969119429588318,
+                                    0.9967387318611145,
+                                    0.9998903274536133],
+               'cossim_amm_test': [0.9908984303474426,
+                                   0.9957408905029297,
+                                   0.9907220602035522,
+                                   0.9867417216300964,
+                                   0.9870854616165161,
+                                   0.9932657480239868,
+                                   0.993508517742157,
+                                   0.9995527267456055],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 4, 128),
+                              (192, 4, 128),
+                              (128, 128, 4),
+                              (128, 128, 4),
+                              (32, 4, 128),
+                              (32, 4, 128),
+                              (32, 4, 128),
+                              (256, 4, 128)],
+               'lut_total_size': 425984}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+--- total mse / var(X): 0.00188
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.01, 0.00768
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0241, 0.00901
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0173, 0.00806
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0226, 0.00593
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00512, 0.0145
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.015, 0.00975
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0115, 0.0105
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00577, 0.01
+--- total mse / var(X): 0.00943
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00376, 0.00428
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00356, 0.0028
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00447, 0.00418
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00355, 0.00375
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00255, 0.00257
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00322, 0.00366
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00468, 0.00542
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00322, 0.00249
+--- total mse / var(X): 0.00364
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00293, 0.00159
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00135, 0.00191
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00259, 0.00151
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00209, 0.00213
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00306, 0.00441
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00394, 0.00453
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00337, 0.00208
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00124, 0.00151
+--- total mse / var(X): 0.00246
+running kmeans in subspace 1/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00449, 0.00223
+running kmeans in subspace 2/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00305, 0.00263
+running kmeans in subspace 3/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00161, 0.00264
+running kmeans in subspace 4/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00256, 0.00189
+running kmeans in subspace 5/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00176, 0.00254
+running kmeans in subspace 6/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00288, 0.00208
+running kmeans in subspace 7/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00138, 0.00182
+running kmeans in subspace 8/8... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00294, 0.0023
+--- total mse / var(X): 0.00227
+start table evaluation...
+Elapsed time: 366.6495668888092 seconds
+Cosine similarity between AMM and exact (Train): 0.999999
+Cosine similarity between AMM and exact (Test): 0.99999285
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8, 8],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9999958276748657,
+                                      0.9993611574172974,
+                                      0.9991384148597717,
+                                      0.9999989867210388],
+               'cossim_layer_test': [0.9995825886726379,
+                                     0.998192310333252,
+                                     0.9976902604103088,
+                                     0.999992847442627],
+               'cossim_amm_train': [0.9999909996986389,
+                                    0.9989096522331238,
+                                    0.9970703125,
+                                    0.997157633304596,
+                                    0.996925413608551,
+                                    0.9978160262107849,
+                                    0.9976173639297485,
+                                    0.9999174475669861],
+               'cossim_amm_test': [0.9992114305496216,
+                                   0.9974181652069092,
+                                   0.9934091567993164,
+                                   0.9926947355270386,
+                                   0.9915512800216675,
+                                   0.9946580529212952,
+                                   0.994813859462738,
+                                   0.9996370077133179],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 8, 128),
+                              (192, 8, 128),
+                              (128, 128, 8),
+                              (128, 128, 8),
+                              (32, 8, 128),
+                              (32, 8, 128),
+                              (32, 8, 128),
+                              (256, 8, 128)],
+               'lut_total_size': 851968}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:46: ConvergenceWarning: Number of distinct clusters (27) found smaller than n_clusters (32). Possibly due to duplicate points in X.
+  kmeans1 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, :D//2])
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (32). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 0.9999999
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00974, 0.0136
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 1.6e-14, 9.68e-15
+--- total mse / var(X): 0.0068
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.001, 0.00103
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000888, 0.000863
+--- total mse / var(X): 0.000947
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000709, 0.000728
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000918, 0.000893
+--- total mse / var(X): 0.00081
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000885, 0.000844
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00096, 0.001
+--- total mse / var(X): 0.000924
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000148, 0.000242
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000661, 0.000245
+--- total mse / var(X): 0.000243
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000606, 0.000609
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00104, 0.00104
+--- total mse / var(X): 0.000822
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.005, 0.00241
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00201, 0.00306
+--- total mse / var(X): 0.00273
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00129, 0.00127
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.00105, 0.00107
+--- total mse / var(X): 0.00117
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000632, 0.000563
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 0.000756, 0.000839
+--- total mse / var(X): 0.000701
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 7.78e-05, 7.26e-05
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 1024, 32
+mse / {var(X_subs), var(X)}: 9.18e-05, 9.79e-05
+--- total mse / var(X): 8.52e-05
+start table evaluation...
+Elapsed time: 846.6376821994781 seconds
+Cosine similarity between AMM and exact (Train): 0.99999964
+Cosine similarity between AMM and exact (Test): 0.99998873
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024,
+                             1024],
+               'cossim_layer_train': [0.9996338486671448,
+                                      0.9997299909591675,
+                                      0.9996625781059265,
+                                      0.9999996423721313],
+               'cossim_layer_test': [0.9919432997703552,
+                                     0.9957534074783325,
+                                     0.9950011372566223,
+                                     0.9999887347221375],
+               'cossim_amm_train': [0.9992644786834717,
+                                    0.9996080994606018,
+                                    0.9989272356033325,
+                                    0.9989166855812073,
+                                    0.9989038705825806,
+                                    0.9992522597312927,
+                                    0.999193549156189,
+                                    0.9999610781669617],
+               'cossim_amm_test': [0.9849198460578918,
+                                   0.9953240752220154,
+                                   0.9891934990882874,
+                                   0.9851311445236206,
+                                   0.9830894470214844,
+                                   0.9924800395965576,
+                                   0.9928957223892212,
+                                   0.9993346333503723],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 1024),
+                              (192, 2, 1024),
+                              (1024, 1024, 2),
+                              (1024, 1024, 2),
+                              (32, 2, 1024),
+                              (32, 2, 1024),
+                              (32, 2, 1024),
+                              (256, 2, 1024)],
+               'lut_total_size': 5373952}}
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 1.0000002
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training with fine tuning...
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.055, 0.0766
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000184, 0.000112
+--- total mse / var(X): 0.0384
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00492, 0.00506
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0049, 0.00476
+--- total mse / var(X): 0.00491
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00271, 0.00278
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00305, 0.00297
+--- total mse / var(X): 0.00287
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.003, 0.00286
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00316, 0.00331
+--- total mse / var(X): 0.00308
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00033, 0.000538
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00133, 0.000494
+--- total mse / var(X): 0.000516
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0078, 0.00783
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0105, 0.0104
+--- total mse / var(X): 0.00913
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0047, 0.00209
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0021, 0.00326
+--- total mse / var(X): 0.00268
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00514, 0.00503
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00486, 0.00497
+--- total mse / var(X): 0.005
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00223, 0.002
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00289, 0.00319
+--- total mse / var(X): 0.0026
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000435, 0.000439
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000317, 0.000315
+--- total mse / var(X): 0.000377
+start table evaluation...
+Elapsed time: 186.67479753494263 seconds
+Cosine similarity between AMM and exact (Train): 0.99999744
+Cosine similarity between AMM and exact (Test): 0.9999858
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9979738593101501,
+                                      0.9981684684753418,
+                                      0.9977799654006958,
+                                      0.9999974370002747],
+               'cossim_layer_test': [0.9881309270858765,
+                                     0.9941785931587219,
+                                     0.993128776550293,
+                                     0.9999858140945435],
+               'cossim_amm_train': [0.9959275722503662,
+                                    0.9980018138885498,
+                                    0.9952071905136108,
+                                    0.9876750707626343,
+                                    0.9923351407051086,
+                                    0.9958147406578064,
+                                    0.9956077337265015,
+                                    0.9998376965522766],
+               'cossim_amm_test': [0.9775108695030212,
+                                   0.9936317205429077,
+                                   0.9863919615745544,
+                                   0.9747844338417053,
+                                   0.9771918058395386,
+                                   0.9892910718917847,
+                                   0.9897773265838623,
+                                   0.9991751313209534],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 128),
+                              (192, 2, 128),
+                              (128, 128, 2),
+                              (128, 128, 2),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (256, 2, 128)],
+               'lut_total_size': 212992}}
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 19,712
+Trainable params: 19,712
+Non-trainable params: 0
+===========================================================================
+Manual and Torch results cosine similarity (Train): 1.0000001
+Manual and Torch results cosine similarity (Test): 1.0000006
+start table training with fine tuning...
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  0%|          | 0/100 [00:00<?, ?it/s]
+/data/neelesh/DART_by_app/462/src/kmeans.py:47: ConvergenceWarning: Number of distinct clusters (1) found smaller than n_clusters (12). Possibly due to duplicate points in X.
+  kmeans2 = KMeans(n_clusters=sqrt_k, random_state=0).fit(X[:, D//2:])
+Retrain for 1 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.0552, 0.0769
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 9.41e-05, 5.7e-05
+--- total mse / var(X): 0.0385
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<01:19,  1.24it/s]  2%|▏         | 2/100 [00:01<01:20,  1.22it/s]  3%|▎         | 3/100 [00:02<01:25,  1.13it/s]  4%|▍         | 4/100 [00:03<01:23,  1.14it/s]  5%|▌         | 5/100 [00:04<01:22,  1.15it/s]  6%|▌         | 6/100 [00:05<01:22,  1.13it/s]  7%|▋         | 7/100 [00:06<01:29,  1.04it/s]  8%|▊         | 8/100 [00:07<01:28,  1.04it/s]  9%|▉         | 9/100 [00:08<01:26,  1.05it/s] 10%|█         | 10/100 [00:09<01:23,  1.08it/s] 11%|█         | 11/100 [00:09<01:18,  1.14it/s] 12%|█▏        | 12/100 [00:10<01:13,  1.20it/s] 13%|█▎        | 13/100 [00:11<01:14,  1.17it/s] 14%|█▍        | 14/100 [00:12<01:12,  1.18it/s] 15%|█▌        | 15/100 [00:13<01:14,  1.15it/s] 16%|█▌        | 16/100 [00:14<01:11,  1.18it/s] 17%|█▋        | 17/100 [00:14<01:07,  1.23it/s] 18%|█▊        | 18/100 [00:15<01:04,  1.26it/s] 19%|█▉        | 19/100 [00:16<01:10,  1.15it/s] 20%|██        | 20/100 [00:17<01:09,  1.14it/s] 21%|██        | 21/100 [00:18<01:18,  1.01it/s] 22%|██▏       | 22/100 [00:19<01:18,  1.01s/it] 23%|██▎       | 23/100 [00:20<01:12,  1.07it/s] 24%|██▍       | 24/100 [00:21<01:09,  1.09it/s] 25%|██▌       | 25/100 [00:22<01:07,  1.11it/s] 26%|██▌       | 26/100 [00:23<01:09,  1.06it/s] 27%|██▋       | 27/100 [00:24<01:05,  1.11it/s] 28%|██▊       | 28/100 [00:24<01:02,  1.16it/s] 29%|██▉       | 29/100 [00:25<01:01,  1.16it/s] 30%|███       | 30/100 [00:26<00:58,  1.20it/s] 31%|███       | 31/100 [00:27<00:57,  1.20it/s] 32%|███▏      | 32/100 [00:28<00:57,  1.18it/s] 33%|███▎      | 33/100 [00:29<00:57,  1.16it/s] 34%|███▍      | 34/100 [00:30<00:57,  1.15it/s] 35%|███▌      | 35/100 [00:30<00:55,  1.17it/s] 36%|███▌      | 36/100 [00:31<00:55,  1.16it/s] 37%|███▋      | 37/100 [00:32<00:53,  1.18it/s] 38%|███▊      | 38/100 [00:33<00:51,  1.20it/s] 39%|███▉      | 39/100 [00:34<00:50,  1.22it/s] 40%|████      | 40/100 [00:34<00:49,  1.22it/s] 41%|████      | 41/100 [00:35<00:51,  1.14it/s] 42%|████▏     | 42/100 [00:36<00:52,  1.11it/s] 43%|████▎     | 43/100 [00:37<00:51,  1.11it/s] 44%|████▍     | 44/100 [00:38<00:47,  1.17it/s] 45%|████▌     | 45/100 [00:39<00:47,  1.17it/s] 46%|████▌     | 46/100 [00:40<00:45,  1.18it/s] 47%|████▋     | 47/100 [00:40<00:42,  1.26it/s] 48%|████▊     | 48/100 [00:41<00:41,  1.27it/s] 49%|████▉     | 49/100 [00:42<00:38,  1.32it/s] 50%|█████     | 50/100 [00:43<00:36,  1.37it/s] 51%|█████     | 51/100 [00:43<00:35,  1.37it/s] 52%|█████▏    | 52/100 [00:44<00:34,  1.40it/s] 53%|█████▎    | 53/100 [00:45<00:33,  1.40it/s] 54%|█████▍    | 54/100 [00:46<00:35,  1.30it/s] 55%|█████▌    | 55/100 [00:46<00:33,  1.36it/s] 56%|█████▌    | 56/100 [00:47<00:32,  1.35it/s] 57%|█████▋    | 57/100 [00:48<00:31,  1.37it/s] 58%|█████▊    | 58/100 [00:49<00:32,  1.27it/s] 59%|█████▉    | 59/100 [00:50<00:34,  1.19it/s] 60%|██████    | 60/100 [00:50<00:33,  1.19it/s] 61%|██████    | 61/100 [00:51<00:33,  1.17it/s] 62%|██████▏   | 62/100 [00:52<00:32,  1.17it/s] 63%|██████▎   | 63/100 [00:53<00:32,  1.14it/s] 64%|██████▍   | 64/100 [00:54<00:32,  1.11it/s] 65%|██████▌   | 65/100 [00:55<00:32,  1.09it/s] 66%|██████▌   | 66/100 [00:56<00:30,  1.10it/s] 67%|██████▋   | 67/100 [00:57<00:29,  1.10it/s] 68%|██████▊   | 68/100 [00:58<00:29,  1.07it/s] 69%|██████▉   | 69/100 [00:59<00:28,  1.08it/s] 70%|███████   | 70/100 [00:59<00:26,  1.13it/s] 71%|███████   | 71/100 [01:00<00:25,  1.14it/s] 72%|███████▏  | 72/100 [01:01<00:23,  1.18it/s] 73%|███████▎  | 73/100 [01:02<00:22,  1.19it/s] 74%|███████▍  | 74/100 [01:03<00:22,  1.17it/s] 75%|███████▌  | 75/100 [01:04<00:21,  1.17it/s] 76%|███████▌  | 76/100 [01:04<00:20,  1.19it/s] 77%|███████▋  | 77/100 [01:05<00:19,  1.19it/s] 78%|███████▊  | 78/100 [01:06<00:18,  1.22it/s] 79%|███████▉  | 79/100 [01:07<00:17,  1.20it/s] 80%|████████  | 80/100 [01:08<00:16,  1.19it/s] 81%|████████  | 81/100 [01:09<00:16,  1.17it/s] 82%|████████▏ | 82/100 [01:10<00:15,  1.18it/s] 83%|████████▎ | 83/100 [01:10<00:13,  1.22it/s] 84%|████████▍ | 84/100 [01:11<00:14,  1.14it/s] 85%|████████▌ | 85/100 [01:12<00:13,  1.14it/s] 86%|████████▌ | 86/100 [01:13<00:11,  1.17it/s] 87%|████████▋ | 87/100 [01:14<00:11,  1.17it/s] 88%|████████▊ | 88/100 [01:15<00:09,  1.24it/s] 89%|████████▉ | 89/100 [01:15<00:08,  1.26it/s] 90%|█████████ | 90/100 [01:16<00:08,  1.25it/s] 91%|█████████ | 91/100 [01:17<00:07,  1.22it/s] 92%|█████████▏| 92/100 [01:18<00:06,  1.24it/s] 93%|█████████▎| 93/100 [01:18<00:05,  1.28it/s] 94%|█████████▍| 94/100 [01:19<00:04,  1.28it/s] 95%|█████████▌| 95/100 [01:20<00:04,  1.24it/s] 96%|█████████▌| 96/100 [01:21<00:03,  1.22it/s] 97%|█████████▋| 97/100 [01:22<00:02,  1.21it/s] 98%|█████████▊| 98/100 [01:23<00:01,  1.25it/s] 99%|█████████▉| 99/100 [01:23<00:00,  1.27it/s]100%|██████████| 100/100 [01:24<00:00,  1.25it/s]100%|██████████| 100/100 [01:24<00:00,  1.18it/s]
+Retrain for 100 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00484, 0.00497
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00497, 0.00483
+--- total mse / var(X): 0.0049
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00292, 0.003
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00316, 0.00307
+--- total mse / var(X): 0.00304
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00301, 0.00287
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00308, 0.00322
+--- total mse / var(X): 0.00305
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000355, 0.000579
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00137, 0.000505
+--- total mse / var(X): 0.000542
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00481, 0.00483
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00709, 0.00706
+--- total mse / var(X): 0.00595
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  2%|▏         | 2/100 [00:00<00:08, 12.12it/s]  4%|▍         | 4/100 [00:00<00:07, 12.98it/s]  6%|▌         | 6/100 [00:00<00:07, 12.06it/s]  8%|▊         | 8/100 [00:00<00:07, 12.57it/s] 10%|█         | 10/100 [00:00<00:06, 13.13it/s] 12%|█▏        | 12/100 [00:00<00:06, 12.66it/s] 14%|█▍        | 14/100 [00:01<00:06, 12.61it/s] 16%|█▌        | 16/100 [00:01<00:06, 13.16it/s] 18%|█▊        | 18/100 [00:01<00:05, 13.69it/s] 20%|██        | 20/100 [00:01<00:06, 12.87it/s] 22%|██▏       | 22/100 [00:01<00:06, 12.33it/s] 24%|██▍       | 24/100 [00:01<00:06, 12.06it/s] 26%|██▌       | 26/100 [00:02<00:06, 11.66it/s] 28%|██▊       | 28/100 [00:02<00:05, 12.62it/s] 30%|███       | 30/100 [00:02<00:05, 13.16it/s] 32%|███▏      | 32/100 [00:02<00:05, 13.53it/s] 34%|███▍      | 34/100 [00:02<00:04, 14.96it/s] 37%|███▋      | 37/100 [00:02<00:03, 17.16it/s] 39%|███▉      | 39/100 [00:02<00:03, 17.41it/s] 41%|████      | 41/100 [00:02<00:03, 16.63it/s] 43%|████▎     | 43/100 [00:03<00:03, 17.04it/s] 46%|████▌     | 46/100 [00:03<00:03, 17.54it/s] 48%|████▊     | 48/100 [00:03<00:03, 14.23it/s] 50%|█████     | 50/100 [00:03<00:04, 11.59it/s] 52%|█████▏    | 52/100 [00:03<00:03, 13.07it/s] 54%|█████▍    | 54/100 [00:03<00:03, 14.10it/s] 56%|█████▌    | 56/100 [00:04<00:03, 14.47it/s] 58%|█████▊    | 58/100 [00:04<00:02, 15.00it/s] 60%|██████    | 60/100 [00:04<00:02, 15.17it/s] 62%|██████▏   | 62/100 [00:04<00:02, 15.52it/s] 64%|██████▍   | 64/100 [00:04<00:02, 14.54it/s] 66%|██████▌   | 66/100 [00:04<00:02, 15.27it/s] 68%|██████▊   | 68/100 [00:04<00:02, 15.96it/s] 70%|███████   | 70/100 [00:05<00:02, 13.29it/s] 72%|███████▏  | 72/100 [00:05<00:02, 10.95it/s] 74%|███████▍  | 74/100 [00:05<00:02, 12.07it/s] 76%|███████▌  | 76/100 [00:05<00:01, 12.81it/s] 78%|███████▊  | 78/100 [00:05<00:01, 13.18it/s] 80%|████████  | 80/100 [00:05<00:01, 14.23it/s] 82%|████████▏ | 82/100 [00:05<00:01, 14.77it/s] 84%|████████▍ | 84/100 [00:06<00:01, 15.05it/s] 86%|████████▌ | 86/100 [00:06<00:00, 15.10it/s] 88%|████████▊ | 88/100 [00:06<00:00, 14.63it/s] 90%|█████████ | 90/100 [00:06<00:00, 12.00it/s] 92%|█████████▏| 92/100 [00:06<00:00, 12.48it/s] 94%|█████████▍| 94/100 [00:06<00:00, 13.19it/s] 96%|█████████▌| 96/100 [00:07<00:00, 12.67it/s] 98%|█████████▊| 98/100 [00:07<00:00, 12.08it/s]100%|██████████| 100/100 [00:07<00:00, 11.28it/s]100%|██████████| 100/100 [00:07<00:00, 13.49it/s]
+Retrain for 100 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00456, 0.00209
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00215, 0.00332
+--- total mse / var(X): 0.0027
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  1%|          | 1/100 [00:00<00:17,  5.60it/s]  4%|▍         | 4/100 [00:00<00:07, 13.45it/s]  6%|▌         | 6/100 [00:00<00:06, 15.64it/s]  8%|▊         | 8/100 [00:00<00:05, 15.61it/s] 10%|█         | 10/100 [00:00<00:05, 15.80it/s] 13%|█▎        | 13/100 [00:00<00:04, 17.48it/s] 15%|█▌        | 15/100 [00:00<00:04, 17.89it/s] 17%|█▋        | 17/100 [00:01<00:04, 18.05it/s] 19%|█▉        | 19/100 [00:01<00:04, 17.20it/s] 21%|██        | 21/100 [00:01<00:05, 15.28it/s] 23%|██▎       | 23/100 [00:01<00:04, 15.72it/s] 25%|██▌       | 25/100 [00:01<00:04, 15.47it/s] 28%|██▊       | 28/100 [00:01<00:04, 15.86it/s] 30%|███       | 30/100 [00:01<00:04, 16.38it/s] 33%|███▎      | 33/100 [00:01<00:03, 18.96it/s] 35%|███▌      | 35/100 [00:02<00:04, 15.28it/s] 38%|███▊      | 38/100 [00:02<00:03, 16.25it/s] 40%|████      | 40/100 [00:02<00:03, 15.63it/s] 42%|████▏     | 42/100 [00:02<00:03, 16.45it/s] 44%|████▍     | 44/100 [00:02<00:04, 13.96it/s] 47%|████▋     | 47/100 [00:03<00:03, 14.51it/s] 49%|████▉     | 49/100 [00:03<00:03, 15.15it/s] 51%|█████     | 51/100 [00:03<00:03, 16.03it/s] 53%|█████▎    | 53/100 [00:03<00:03, 14.26it/s] 55%|█████▌    | 55/100 [00:03<00:03, 14.33it/s] 57%|█████▋    | 57/100 [00:03<00:03, 12.80it/s] 59%|█████▉    | 59/100 [00:03<00:02, 13.94it/s] 61%|██████    | 61/100 [00:04<00:03, 12.80it/s] 63%|██████▎   | 63/100 [00:04<00:02, 13.13it/s] 66%|██████▌   | 66/100 [00:04<00:02, 13.71it/s] 68%|██████▊   | 68/100 [00:04<00:02, 13.50it/s] 70%|███████   | 70/100 [00:04<00:02, 13.46it/s] 72%|███████▏  | 72/100 [00:04<00:01, 14.10it/s] 74%|███████▍  | 74/100 [00:05<00:02, 12.63it/s] 76%|███████▌  | 76/100 [00:05<00:01, 13.80it/s] 78%|███████▊  | 78/100 [00:05<00:01, 12.60it/s] 80%|████████  | 80/100 [00:05<00:01, 12.99it/s] 82%|████████▏ | 82/100 [00:05<00:01, 13.80it/s] 84%|████████▍ | 84/100 [00:05<00:01, 15.08it/s] 87%|████████▋ | 87/100 [00:05<00:00, 16.71it/s] 89%|████████▉ | 89/100 [00:05<00:00, 17.48it/s] 91%|█████████ | 91/100 [00:06<00:00, 17.54it/s] 94%|█████████▍| 94/100 [00:06<00:00, 18.62it/s] 96%|█████████▌| 96/100 [00:06<00:00, 16.36it/s] 98%|█████████▊| 98/100 [00:06<00:00, 17.12it/s]100%|██████████| 100/100 [00:06<00:00, 15.28it/s]
+Retrain for 100 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00543, 0.00531
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00495, 0.00506
+--- total mse / var(X): 0.00518
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  2%|▏         | 2/100 [00:00<00:07, 13.42it/s]  5%|▌         | 5/100 [00:00<00:04, 19.30it/s]  8%|▊         | 8/100 [00:00<00:04, 22.70it/s] 12%|█▏        | 12/100 [00:00<00:03, 26.45it/s] 15%|█▌        | 15/100 [00:00<00:03, 27.49it/s] 18%|█▊        | 18/100 [00:00<00:03, 23.68it/s] 21%|██        | 21/100 [00:00<00:03, 21.65it/s] 24%|██▍       | 24/100 [00:01<00:03, 22.94it/s] 27%|██▋       | 27/100 [00:01<00:03, 23.11it/s] 30%|███       | 30/100 [00:01<00:02, 24.35it/s] 33%|███▎      | 33/100 [00:01<00:02, 25.61it/s] 36%|███▌      | 36/100 [00:01<00:02, 25.74it/s] 39%|███▉      | 39/100 [00:01<00:02, 24.94it/s] 42%|████▏     | 42/100 [00:01<00:02, 22.82it/s] 45%|████▌     | 45/100 [00:01<00:02, 23.78it/s] 48%|████▊     | 48/100 [00:02<00:02, 25.06it/s] 51%|█████     | 51/100 [00:02<00:02, 24.10it/s] 54%|█████▍    | 54/100 [00:02<00:02, 21.85it/s] 57%|█████▋    | 57/100 [00:02<00:01, 22.98it/s] 61%|██████    | 61/100 [00:02<00:01, 25.79it/s] 66%|██████▌   | 66/100 [00:02<00:01, 30.06it/s] 70%|███████   | 70/100 [00:02<00:00, 30.63it/s] 74%|███████▍  | 74/100 [00:02<00:00, 32.15it/s] 78%|███████▊  | 78/100 [00:03<00:00, 32.86it/s] 82%|████████▏ | 82/100 [00:03<00:00, 32.65it/s] 86%|████████▌ | 86/100 [00:03<00:00, 33.73it/s] 90%|█████████ | 90/100 [00:03<00:00, 34.03it/s] 94%|█████████▍| 94/100 [00:03<00:00, 33.69it/s] 98%|█████████▊| 98/100 [00:03<00:00, 32.57it/s]100%|██████████| 100/100 [00:03<00:00, 27.11it/s]
+Retrain for 100 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00278, 0.00247
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.00338, 0.00375
+--- total mse / var(X): 0.00311
+Retrain weight
+  0%|          | 0/100 [00:00<?, ?it/s]  2%|▏         | 2/100 [00:00<00:08, 11.44it/s]  5%|▌         | 5/100 [00:00<00:04, 19.10it/s]  9%|▉         | 9/100 [00:00<00:03, 24.95it/s] 13%|█▎        | 13/100 [00:00<00:03, 28.07it/s] 16%|█▌        | 16/100 [00:00<00:03, 24.54it/s] 19%|█▉        | 19/100 [00:00<00:03, 25.21it/s] 23%|██▎       | 23/100 [00:00<00:02, 27.06it/s] 27%|██▋       | 27/100 [00:01<00:02, 29.42it/s] 30%|███       | 30/100 [00:01<00:02, 28.37it/s] 34%|███▍      | 34/100 [00:01<00:02, 29.29it/s] 38%|███▊      | 38/100 [00:01<00:02, 29.87it/s] 42%|████▏     | 42/100 [00:01<00:01, 29.84it/s] 45%|████▌     | 45/100 [00:01<00:01, 28.21it/s] 48%|████▊     | 48/100 [00:01<00:01, 27.14it/s] 51%|█████     | 51/100 [00:01<00:01, 26.93it/s] 55%|█████▌    | 55/100 [00:02<00:01, 28.45it/s] 58%|█████▊    | 58/100 [00:02<00:01, 28.79it/s] 62%|██████▏   | 62/100 [00:02<00:01, 28.84it/s] 66%|██████▌   | 66/100 [00:02<00:01, 29.81it/s] 70%|███████   | 70/100 [00:02<00:01, 29.86it/s] 74%|███████▍  | 74/100 [00:02<00:00, 29.55it/s] 78%|███████▊  | 78/100 [00:02<00:00, 30.46it/s] 82%|████████▏ | 82/100 [00:02<00:00, 31.77it/s] 86%|████████▌ | 86/100 [00:03<00:00, 31.64it/s] 90%|█████████ | 90/100 [00:03<00:00, 30.39it/s] 94%|█████████▍| 94/100 [00:03<00:00, 29.77it/s] 98%|█████████▊| 98/100 [00:03<00:00, 30.24it/s]100%|██████████| 100/100 [00:03<00:00, 28.66it/s]
+Retrain for 100 epochs
+running kmeans in subspace 1/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000225, 0.000212
+running kmeans in subspace 2/2... kmeans: clustering in subspaces first; k, sqrt(k) = 128, 12
+mse / {var(X_subs), var(X)}: 0.000124, 0.000131
+--- total mse / var(X): 0.000171
+start table evaluation...
+Elapsed time: 256.2427144050598 seconds
+Cosine similarity between AMM and exact (Train): 0.9999983
+Cosine similarity between AMM and exact (Test): 0.99998415
+p,r,f1: 0.9830605092068085 0.9999899971870878 0.9914529888843776
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+done
+{'model': {'name': 'ViT',
+           'layer': 4,
+           'dim': 32,
+           'f1': [0.9830605092068085, 0.9999899971870878, 0.9914529888843776],
+           'num_param': 19712},
+ 'estimator': {'method': 'PQ_KMEANS',
+               'N_SUBSPACE': [2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2, 2],
+               'K_CLUSTER': [128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128,
+                             128],
+               'cossim_layer_train': [0.9979591369628906,
+                                      0.9986770153045654,
+                                      0.9983903765678406,
+                                      0.9999982714653015],
+               'cossim_layer_test': [0.9890332221984863,
+                                     0.9935365319252014,
+                                     0.9923895597457886,
+                                     0.9999841451644897],
+               'cossim_amm_train': [0.9959006309509277,
+                                    0.9979987740516663,
+                                    0.9952080845832825,
+                                    0.9898624420166016,
+                                    0.9948101043701172,
+                                    0.9968013167381287,
+                                    0.9964684247970581,
+                                    0.9998757839202881],
+               'cossim_amm_test': [0.979345440864563,
+                                   0.9937266707420349,
+                                   0.985720694065094,
+                                   0.9771589636802673,
+                                   0.9735104441642761,
+                                   0.9877245426177979,
+                                   0.9892944693565369,
+                                   0.9990460276603699],
+               'f1': [0.9830463222533707, 1.0, 0.9914506900033658],
+               'lut_num': 8,
+               'lut_shapes': [(32, 2, 128),
+                              (192, 2, 128),
+                              (128, 128, 2),
+                              (128, 128, 2),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (32, 2, 128),
+                              (256, 2, 128)],
+               'lut_total_size': 212992}}
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+│    │    └─ModuleList: 3-2                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 30,176
+Trainable params: 30,176
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               384
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 352
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        10,464
+│    │    └─ModuleList: 3-2                        10,464
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              64
+│    └─Linear: 2-5                                 8,448
+===========================================================================
+Total params: 30,176
+Trainable params: 30,176
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.4777552522 - test_loss: 0.3367076411
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.2406126341 - test_loss: 0.1843416862
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.1424291321 - test_loss: 0.1135868906
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.0990428996 - test_loss: 0.0805923462
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.0801362043 - test_loss: 0.0646354729
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.0720048154 - test_loss: 0.0566308594
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.0686398094 - test_loss: 0.0525335239
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.0673413037 - test_loss: 0.0504552070
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.0668759396 - test_loss: 0.0494304395
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.0667119800 - test_loss: 0.0489245568
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.0665478138 - test_loss: 0.0487477600
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.0659298687 - test_loss: 0.0523835769
+Early Stop Left: 4
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.0653069182 - test_loss: 0.0531719777
+Early Stop Left: 3
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.0651051448 - test_loss: 0.0506074744
+Early Stop Left: 2
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.0649772185 - test_loss: 0.0504151038
+Early Stop Left: 1
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.0648568564 - test_loss: 0.0504480102
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s]  7%|▋         | 15/205 [00:00<00:01, 141.38it/s] 15%|█▍        | 30/205 [00:00<00:01, 141.18it/s] 22%|██▏       | 45/205 [00:00<00:01, 138.62it/s] 29%|██▉       | 60/205 [00:00<00:01, 138.93it/s] 36%|███▌      | 74/205 [00:00<00:00, 139.06it/s] 43%|████▎     | 88/205 [00:00<00:00, 137.36it/s] 50%|█████     | 103/205 [00:00<00:00, 139.30it/s] 58%|█████▊    | 118/205 [00:00<00:00, 140.95it/s] 65%|██████▍   | 133/205 [00:00<00:00, 142.06it/s] 72%|███████▏  | 148/205 [00:01<00:00, 141.51it/s] 80%|███████▉  | 163/205 [00:01<00:00, 142.01it/s] 87%|████████▋ | 178/205 [00:01<00:00, 141.41it/s] 94%|█████████▍| 193/205 [00:01<00:00, 141.66it/s]100%|██████████| 205/205 [00:01<00:00, 140.83it/s]===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               192
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 176
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        1,376
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              32
+│    └─Linear: 2-5                                 4,352
+===========================================================================
+Total params: 6,128
+Trainable params: 6,128
+Non-trainable params: 0
+===========================================================================
+===========================================================================
+Layer (type:depth-idx)                             Param #
+===========================================================================
+TMAP                                               192
+├─Sequential: 1-1                                  --
+│    └─Rearrange: 2-1                              --
+│    └─Linear: 2-2                                 176
+├─Dropout: 1-2                                     --
+├─Transformer: 1-3                                 --
+│    └─ModuleList: 2-3                             --
+│    │    └─ModuleList: 3-1                        1,376
+├─Identity: 1-4                                    --
+├─Sequential: 1-5                                  --
+│    └─LayerNorm: 2-4                              32
+│    └─Linear: 2-5                                 4,352
+===========================================================================
+Total params: 6,128
+Trainable params: 6,128
+Non-trainable params: 0
+===========================================================================
+Loading data for model
+Data loaded successfully for stu
+------- START EPOCH 1 -------
+Epoch: 1 - loss: 0.5880846257 - test_loss: 0.4886183723
+-------- Save Best Model! --------
+------- START EPOCH 2 -------
+Epoch: 2 - loss: 0.3734036814 - test_loss: 0.3168124965
+-------- Save Best Model! --------
+------- START EPOCH 3 -------
+Epoch: 3 - loss: 0.2527123539 - test_loss: 0.2185086598
+-------- Save Best Model! --------
+------- START EPOCH 4 -------
+Epoch: 4 - loss: 0.1793026190 - test_loss: 0.1556119872
+-------- Save Best Model! --------
+------- START EPOCH 5 -------
+Epoch: 5 - loss: 0.1333149749 - test_loss: 0.1153927431
+-------- Save Best Model! --------
+------- START EPOCH 6 -------
+Epoch: 6 - loss: 0.1049720076 - test_loss: 0.0898513506
+-------- Save Best Model! --------
+------- START EPOCH 7 -------
+Epoch: 7 - loss: 0.0879096554 - test_loss: 0.0737461780
+-------- Save Best Model! --------
+------- START EPOCH 8 -------
+Epoch: 8 - loss: 0.0779507848 - test_loss: 0.0636868932
+-------- Save Best Model! --------
+------- START EPOCH 9 -------
+Epoch: 9 - loss: 0.0723667091 - test_loss: 0.0574450442
+-------- Save Best Model! --------
+------- START EPOCH 10 -------
+Epoch: 10 - loss: 0.0693913565 - test_loss: 0.0536607186
+-------- Save Best Model! --------
+------- START EPOCH 11 -------
+Epoch: 11 - loss: 0.0679027034 - test_loss: 0.0513900223
+-------- Save Best Model! --------
+------- START EPOCH 12 -------
+Epoch: 12 - loss: 0.0672035813 - test_loss: 0.0500870987
+-------- Save Best Model! --------
+------- START EPOCH 13 -------
+Epoch: 13 - loss: 0.0668957407 - test_loss: 0.0493849661
+-------- Save Best Model! --------
+------- START EPOCH 14 -------
+Epoch: 14 - loss: 0.0667691841 - test_loss: 0.0490347505
+-------- Save Best Model! --------
+------- START EPOCH 15 -------
+Epoch: 15 - loss: 0.0667170240 - test_loss: 0.0489078980
+-------- Save Best Model! --------
+------- START EPOCH 16 -------
+Epoch: 16 - loss: 0.0666921562 - test_loss: 0.0488401009
+-------- Save Best Model! --------
+------- START EPOCH 17 -------
+Epoch: 17 - loss: 0.0666741524 - test_loss: 0.0488144834
+-------- Save Best Model! --------
+------- START EPOCH 18 -------
+Epoch: 18 - loss: 0.0666544573 - test_loss: 0.0488255095
+Early Stop Left: 4
+------- START EPOCH 19 -------
+Epoch: 19 - loss: 0.0666244401 - test_loss: 0.0489683352
+Early Stop Left: 3
+------- START EPOCH 20 -------
+Epoch: 20 - loss: 0.0665837988 - test_loss: 0.0489267036
+Early Stop Left: 2
+------- START EPOCH 21 -------
+Epoch: 21 - loss: 0.0665365938 - test_loss: 0.0491489387
+Early Stop Left: 1
+------- START EPOCH 22 -------
+Epoch: 22 - loss: 0.0664783591 - test_loss: 0.0489838344
+Early Stop Left: 0
+-------- Early Stop! --------
+Validation start
+  0%|          | 0/205 [00:00<?, ?it/s]  8%|▊         | 17/205 [00:00<00:01, 163.12it/s] 17%|█▋        | 34/205 [00:00<00:01, 160.46it/s] 25%|██▌       | 52/205 [00:00<00:00, 166.20it/s] 34%|███▍      | 70/205 [00:00<00:00, 169.52it/s] 43%|████▎     | 88/205 [00:00<00:00, 168.02it/s] 51%|█████     | 105/205 [00:00<00:00, 167.57it/s] 60%|██████    | 123/205 [00:00<00:00, 169.16it/s] 68%|██████▊   | 140/205 [00:00<00:00, 169.32it/s] 77%|███████▋  | 158/205 [00:00<00:00, 170.77it/s] 86%|████████▌ | 176/205 [00:01<00:00, 171.84it/s] 95%|█████████▍| 194/205 [00:01<00:00, 172.35it/s]100%|██████████| 205/205 [00:01<00:00, 169.88it/s]
+Best micro threshold=0.934017, fscore=0.991
+p,r,f1: 0.983091431134236 0.999964535481493 0.9914561997437327
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vit_large',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.9340168237686157,
+                 'p': 0.983091431134236,
+                 'r': 0.999964535481493,
+                 'f1': 0.9914561997437327},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm
+
+Best micro threshold=0.959097, fscore=0.991
+p,r,f1: 0.9830554560629908 0.9999943923624582 0.9914525791924556
+throttleing by fixed threshold: 0.5
+p,r,f1: 0.9830463222533707 1.0 0.9914506900033658
+{'model': 'vit_min',
+ 'app': '462.libquantum-s0.txt.xz',
+ 'validation': [{'method': 'micro precision f1',
+                 'threshold': 0.9590970277786255,
+                 'p': 0.9830554560629908,
+                 'r': 0.9999943923624582,
+                 'f1': 0.9914525791924556},
+                {'method': 'fixed threshold 0.5',
+                 'threshold': 0.5,
+                 'p': 0.9830463222533707,
+                 'r': 1.0,
+                 'f1': 0.9914506900033658}]}
+saving tensor pickle data
+tensor data saved
+saving test dataframe
+done data saving for amm

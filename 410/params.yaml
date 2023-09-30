@@ -67,7 +67,18 @@ model:
     heads: 2 
     mlp_dim: 32 
     channels: 1
-
+  vit_min:
+    dim: 16
+    depth: 1
+    heads: 1
+    mlp_dim: 16
+    channels: 1
+  vit_large:
+    dim: 32
+    depth: 2
+    heads: 2
+    mlp_dim: 32
+    channels: 1  
 simulator:
   degree: 16
 

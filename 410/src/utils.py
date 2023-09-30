@@ -95,7 +95,30 @@ def select_model(option):
             channels = params["model"][option]["channels"],
             dim_head = params["model"][option]["mlp_dim"]
         )
-
+    elif option == "vit_min":
+        return TMAP (
+            image_size=image_size,
+            patch_size=patch_size,
+            num_classes=num_classes,
+            dim = params["model"][option]["dim"],
+            depth = params["model"][option]["depth"],
+            heads = params["model"][option]["heads"],
+            mlp_dim = params["model"][option]["mlp_dim"],
+            channels = params["model"][option]["channels"],
+            dim_head = params["model"][option]["mlp_dim"]
+        )
+    elif option == "vit_large":
+        return TMAP (
+            image_size=image_size,
+            patch_size=patch_size,
+            num_classes=num_classes,
+            dim = params["model"][option]["dim"],
+            depth = params["model"][option]["depth"],
+            heads = params["model"][option]["heads"],
+            mlp_dim = params["model"][option]["mlp_dim"],
+            channels = params["model"][option]["channels"],
+            dim_head = params["model"][option]["mlp_dim"]
+        )
 
 def replace_directory(path, new_directory):
     parts = path.split('/')

@@ -51,7 +51,7 @@ class ViT_Manual():
 
     #def
 
-    def fine_tune_retrain_weight(self,new_input,weight, bias, target,epoch=300,lr=0.001):
+    def fine_tune_retrain_weight(self,new_input,weight, bias, target,epoch=100,lr=0.001):
         linear_layer = nn.Linear(weight.shape[0], weight.shape[1])
         with torch.no_grad():
             linear_layer.weight.copy_(weight.t())  # Transpose the weight matrix
