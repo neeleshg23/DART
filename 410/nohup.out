@@ -3061,3 +3061,8 @@ done
                               (32, 1, 64),
                               (256, 1, 64)],
                'lut_total_size': 45056}}
+python: can't open file 'train.py': [Errno 2] No such file or directory
+Traceback (most recent call last):
+  File "src/train.py", line 6, in <module>
+    import yaml
+ModuleNotFoundError: No module named 'yaml'

@@ -162,14 +162,17 @@ def degree_stats(df,app_name,degree_stats_path):
 #%%
 if __name__ == "__main__":
     if len(sys.argv) != 6:
-        print("Usage: python src/generate_amm.py tracefile model_option K,...,K N,...,N gpu_id")
+        print("Usage: python src/generate_amm.py tracefile model_option K C gpu_id")
         exit(1)
     
     app = sys.argv[1]
     model_option = sys.argv[2]
 
-    K_CLUSTER = [int(c) for c in sys.argv[3].split(",")]
-    N_SUBSPACE = [int(d) for d in sys.argv[4].split(",")]
+    K = int(sys.argv[3])
+    N = int(sys.argv[4])
+
+    K_CLUSTER = [K for _ in range(14)] 
+    N_SUBSPACE = [N for _ in range(14)]
 
     gpu_id = sys.argv[5]
     
@@ -179,7 +182,7 @@ if __name__ == "__main__":
     init_dataloader(gpu_id)
 
     model_save_path = os.path.join(model_dir, f"{app[:-7]}.{model_option}.pkl") 
-    amm_df_path = model_save_path[:-4] + ".k."+".".join(map(str, K_CLUSTER))+".n."+".".join(map(str, N_SUBSPACE))+".amm_df.pkl"
+    amm_df_path = model_save_path[:-4] + ".k."+str(K)+".c."+str(N)+".fine"+".amm_df.pkl" 
 
     res_path = replace_directory(model_save_path, res_dir)
 
@@ -191,7 +194,7 @@ if __name__ == "__main__":
     validation_list = data.get("validation")
     opt_threshold = validation_list[0].get("threshold")
     
-    res_path += ".k."+".".join(map(str, K_CLUSTER))+".n."+".".join(map(str, N_SUBSPACE))+".amm_report.json"
+    res_path += ".k."+str(K)+".c."+str(N)+".fine"
     
     test_df = post_processing_delta_filter(test_df, opt_threshold, filtering=False)
     

@@ -70,7 +70,7 @@ model:
   vit_min:
     dim: 16
     depth: 1
-    heads: 1
+    heads: 2 
     mlp_dim: 16
     channels: 1
   vit_large:
