@@ -140,6 +140,8 @@ print("start table evaluation...")
 start_time = time.time()
 layer_amm_res_test, mm_amm_res_test  = vit_manual_amm.eval_amm(test_data)
 print(f"Elapsed time: { time.time() - start_time} seconds")
+print(len(layer_amm_res_test))
+print(layer_amm_res_test[-1].shape)
 
 print("Cosine similarity between AMM and exact (Train):", _cossim(y_score_by_whole_train, layer_amm_res_train[-1]))
 print("Cosine similarity between AMM and exact (Test):", _cossim(y_score_by_whole_test, layer_amm_res_test[-1]))
@@ -161,7 +163,7 @@ print("done")
 with open(test_df_path, 'rb') as f:
     test_df = pickle.load(f)
 
-test_df['y_score'] = layer_amm_res_test[-1]
+test_df['y_score'] = list(layer_amm_res_test[-1])
 
 with open(amm_path, 'wb') as f:
     pickle.dump(test_df, f)
