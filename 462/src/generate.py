@@ -36,6 +36,7 @@ with open("params.yaml", "r") as p:
 trace_dir = params["system"]["traces"]
 model_dir = params["system"]["model"]
 res_dir = params["system"]["res"]
+processed_dir = params["system"]["processed"]
 
 TRAIN = params["trace-data"]["train"]
 TOTAL = params["trace-data"]["total"]
@@ -76,7 +77,7 @@ def model_prediction_gen(test_loader, test_df, model_save_path):#"top_k";"degree
     model.to(device)
     model.eval()
     y_score=np.array([])
-    for data in tqdm(test_loader):
+    for data, target in tqdm(test_loader):
         output = sigmoid(model(data))
         #prediction.extend(output.cpu())
         prediction.extend(output.cpu().detach().numpy())
@@ -97,55 +98,60 @@ def evaluate(y_test,y_pred_bin):
 #%% New post_processing_delta_bitmap
 
 def convert_hex(pred_block_addr):
-    hex_val = int(pred_block_addr[0]) << BLOCK_BITS 
-    hex_str = hex_val.to_bytes(((hex_val.bit_length() + 7) // 8), "big").hex().lstrip('0') 
-    return hex_str 
+    res=int(pred_block_addr)<<BLOCK_BITS
+    res2=res.to_bytes(((res.bit_length() + 7) // 8),"big").hex().lstrip('0')
+    return res2
 
-def add_delta(block_address, pred_index):
-    pred_delta = np.where(pred_index < DELTA_BOUND, pred_index+1, pred_index-BITMAP_SIZE) 
-    return block_address + pred_delta
+def add_delta(block_address,pred_index):
+    if pred_index<DELTA_BOUND:
+        pred_delta=pred_index+1
+    else:
+        pred_delta=pred_index-BITMAP_SIZE
+        
+    return block_address+pred_delta
 
-def bitmap_to_index_list(y_score, threshold):
-    sorted_pred_index = np.argsort(y_score)[-np.count_nonzero(y_score >= threshold):]
+def bitmap_to_index_list(y_score,threshold):
+    sorted_pred_index=torch.tensor(y_score).topk(len(np.where([y_score>=threshold])[1]))[1].numpy()
     #return sorted index
     return sorted_pred_index
-
-def post_processing_delta_filter(df,opt_threshold,filtering=True):
+def post_processing_delta_filter(df,opt_threshold):
     print("post_processing, opt_threshold<0.9")
     if opt_threshold>0.9:
         opt_threshold=0.5
+    
     df["pred_index"]=df.apply(lambda x: bitmap_to_index_list(x['y_score'], opt_threshold), axis=1)
+    df=df.explode('pred_index')
     df=df.dropna()[['id', 'cycle', 'block_address', 'pred_index']]
     #add delta to block address
     df['pred_block_addr'] = df.apply(lambda x: add_delta(x['block_address'], x['pred_index']), axis=1)
-    if filtering==True:
-        #filter
-        print("filtering")
-        que = []
-        pref_flag=[]
-        dg_counter=0
-        df["id_diff"]=df["id"].diff()
-        for index, row in df.iterrows():
-            if row["id_diff"]!=0:
-                que.append(row["block_address"])
-                dg_counter=0
-            pred=row["pred_block_addr"]
-            if dg_counter<Degree:
-                if pred in que:
-                    pref_flag.append(0)
-                else:
-                    que.append(pred)
-                    pref_flag.append(1)
-                    dg_counter+=1
-            else:
-                pref_flag.append(0)
-            que=que[-FILTER_SIZE:]
-        
-        df["pref_flag"]=pref_flag
-        df=df[df["pref_flag"]==1]
     
-    df['pred_hex'] = df['pred_block_addr'].apply(convert_hex)
-    df=df[["id","pred_hex"]]
+    #filter
+    print("filtering")
+    que = []
+    pref_flag=[]
+    dg_counter=0
+    df["id_diff"]=df["id"].diff()
+    for index, row in df.iterrows():
+        if row["id_diff"]!=0:
+            que.append(row["block_address"])
+            dg_counter=0
+        pred=row["pred_block_addr"]
+        if dg_counter<Degree:
+            if pred in que:
+                pref_flag.append(0)
+            else:
+                que.append(pred)
+                pref_flag.append(1)
+                dg_counter+=1
+        else:
+            pref_flag.append(0)
+        que=que[-FILTER_SIZE:]
+    
+    df["pref_flag"]=pref_flag
+    df=df[df["pref_flag"]==1]
+    
+    df['pred_hex'] = df.apply(lambda x: convert_hex(x['pred_block_addr']), axis=1)
+    #df=df[["id","pred_hex"]]
     return df
 
 #%%
@@ -181,18 +187,21 @@ if __name__ == "__main__":
     model_save_path = os.path.join(model_dir, f"{app_name}.{model_option}.pkl")
     res_path = replace_directory(model_save_path, res_dir)
 
-    print("Generation start")
-    test_loader, test_df = data_generator_gen(file_path, TRAIN, TOTAL, SKIP)
-    print('b4 model prediction col0\n', test_df.columns)
+    print("--- loading ---")
+    # test_loader, test_df = data_generator_gen(file_path, TRAIN, TOTAL, SKIP)
+    test_df, test_loader = torch.load(os.path.join(processed_dir, f'{app_name}.df.pt')), torch.load(os.path.join(processed_dir, f'{app_name}.test.pt'))
+
+    print("--- prediction ---")
     test_df = model_prediction_gen(test_loader, test_df, model_save_path)
+
     print('after model prediction col1\n', test_df.columns)
     with open(res_path+".val_res.json") as json_file:
         data = json.load(json_file)
     validation_list = data.get("validation")
     opt_threshold = validation_list[0].get("threshold")
     
-    test_df = post_processing_delta_filter(test_df, opt_threshold, filtering=False)
-    print('after delta filter\n', test_df.columns)
+    print("--- post processing delta filter ---")
+    test_df = post_processing_delta_filter(test_df, opt_threshold)
     
     path_to_prefetch_file = res_path+".prefetch_file.txt"
     test_df[["id", "pred_hex"]].to_csv(path_to_prefetch_file, header=False, index=False, sep=" ")

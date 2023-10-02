@@ -3066,3 +3066,17 @@ Traceback (most recent call last):
   File "src/train.py", line 6, in <module>
     import yaml
 ModuleNotFoundError: No module named 'yaml'
+--- loading ---
+<class 'pandas.core.frame.DataFrame'>
+<class 'torch.utils.data.dataloader.DataLoader'>
+--- prediction ---
+predicting
+  0%|          | 0/173 [00:00<?, ?it/s]  1%|          | 1/173 [00:00<01:34,  1.82it/s]  7%|▋         | 12/173 [00:00<00:06, 23.88it/s] 13%|█▎        | 23/173 [00:00<00:03, 43.04it/s] 20%|█▉        | 34/173 [00:00<00:02, 58.87it/s] 26%|██▌       | 45/173 [00:00<00:01, 71.28it/s] 33%|███▎      | 57/173 [00:01<00:01, 82.77it/s] 40%|███▉      | 69/173 [00:01<00:01, 90.77it/s] 46%|████▌     | 80/173 [00:01<00:00, 93.81it/s] 53%|█████▎    | 91/173 [00:01<00:00, 97.23it/s] 59%|█████▉    | 102/173 [00:01<00:00, 99.89it/s] 65%|██████▌   | 113/173 [00:01<00:00, 101.94it/s] 72%|███████▏  | 124/173 [00:01<00:00, 103.45it/s] 78%|███████▊  | 135/173 [00:01<00:00, 104.53it/s] 84%|████████▍ | 146/173 [00:01<00:00, 105.22it/s] 91%|█████████ | 157/173 [00:02<00:00, 105.20it/s] 97%|█████████▋| 168/173 [00:02<00:00, 106.22it/s]100%|██████████| 173/173 [00:02<00:00, 80.31it/s] 
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+             app       mean   max  min  median
+0  410.bwaves-s0  14.630779  16.0  1.0    16.0
+Done: results saved at: res/410.bwaves-s0.vitt.pkl.degree_stats.csv
