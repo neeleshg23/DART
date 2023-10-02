@@ -2007,3 +2007,27 @@ done
                               (32, 2, 256),
                               (256, 2, 256)],
                'lut_total_size': 966656}}
+--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:00<00:27,  1.25it/s] 42%|████▏     | 15/36 [00:00<00:00, 22.31it/s] 81%|████████  | 29/36 [00:00<00:00, 43.22it/s]100%|██████████| 36/36 [00:01<00:00, 34.54it/s]--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/36 [00:00<?, ?it/s]  3%|▎         | 1/36 [00:00<00:22,  1.54it/s] 33%|███▎      | 12/36 [00:00<00:01, 20.80it/s] 64%|██████▍   | 23/36 [00:00<00:00, 38.55it/s] 94%|█████████▍| 34/36 [00:00<00:00, 54.24it/s]100%|██████████| 36/36 [00:00<00:00, 36.77it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app       mean   max  min  median
+0  621.wrf-s2  15.889099  16.0  1.0    16.0
+Done: results saved at: res/621.wrf-s2.vit.pkl.degree_stats.csv
+
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app       mean   max  min  median
+0  621.wrf-s2  14.747776  16.0  1.0    16.0
+Done: results saved at: res/621.wrf-s2.vitt.pkl.degree_stats.csv

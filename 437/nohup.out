@@ -5438,3 +5438,27 @@ saving tensor pickle data
 tensor data saved
 saving test dataframe
 done data saving for amm
+--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/104 [00:00<?, ?it/s]  1%|          | 1/104 [00:00<00:57,  1.80it/s] 18%|█▊        | 19/104 [00:00<00:02, 38.20it/s] 36%|███▌      | 37/104 [00:00<00:00, 69.69it/s] 53%|█████▎    | 55/104 [00:00<00:00, 95.93it/s] 69%|██████▉   | 72/104 [00:00<00:00, 114.15it/s] 87%|████████▋ | 90/104 [00:01<00:00, 130.80it/s]100%|██████████| 104/104 [00:01<00:00, 91.04it/s]--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/104 [00:00<?, ?it/s]  1%|          | 1/104 [00:00<00:57,  1.79it/s] 10%|▉         | 10/104 [00:00<00:04, 19.42it/s] 17%|█▋        | 18/104 [00:00<00:02, 31.93it/s] 24%|██▍       | 25/104 [00:00<00:01, 40.85it/s] 32%|███▏      | 33/104 [00:00<00:01, 49.11it/s] 39%|███▉      | 41/104 [00:01<00:01, 55.42it/s] 46%|████▌     | 48/104 [00:01<00:00, 59.13it/s] 54%|█████▍    | 56/104 [00:01<00:00, 62.75it/s] 62%|██████▏   | 64/104 [00:01<00:00, 64.97it/s] 69%|██████▉   | 72/104 [00:01<00:00, 67.36it/s] 77%|███████▋  | 80/104 [00:01<00:00, 68.41it/s] 85%|████████▍ | 88/104 [00:01<00:00, 69.00it/s] 92%|█████████▏| 96/104 [00:01<00:00, 68.48it/s] 99%|█████████▉| 103/104 [00:02<00:00, 66.12it/s]100%|██████████| 104/104 [00:02<00:00, 51.76it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+               app       mean   max  min  median
+0  437.leslie3d-s0  15.612475  16.0  1.0    16.0
+Done: results saved at: res/437.leslie3d-s0.vit.stu.75.1.pkl.degree_stats.csv
+
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+               app       mean   max  min  median
+0  437.leslie3d-s0  14.637333  16.0  1.0    16.0
+Done: results saved at: res/437.leslie3d-s0.vitt.pkl.degree_stats.csv

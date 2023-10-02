@@ -1873,3 +1873,27 @@ saving tensor pickle data
 tensor data saved
 saving test dataframe
 done data saving for amm
+--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/201 [00:00<?, ?it/s]  0%|          | 1/201 [00:00<01:51,  1.80it/s]  9%|▉         | 19/201 [00:00<00:04, 38.21it/s] 19%|█▉        | 38/201 [00:00<00:02, 72.00it/s] 28%|██▊       | 57/201 [00:00<00:01, 99.41it/s] 37%|███▋      | 75/201 [00:00<00:01, 118.75it/s] 46%|████▌     | 92/201 [00:01<00:00, 131.78it/s] 55%|█████▌    | 111/201 [00:01<00:00, 145.57it/s] 65%|██████▍   | 130/201 [00:01<00:00, 155.83it/s] 74%|███████▍  | 149/201 [00:01<00:00, 163.38it/s] 83%|████████▎ | 167/201 [00:01<00:00, 167.76it/s] 93%|█████████▎| 186/201 [00:01<00:00, 171.49it/s]100%|██████████| 201/201 [00:01<00:00, 119.91it/s]--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/201 [00:00<?, ?it/s]  0%|          | 1/201 [00:00<01:56,  1.72it/s]  6%|▌         | 12/201 [00:00<00:08, 22.88it/s] 11%|█▏        | 23/201 [00:00<00:04, 41.77it/s] 17%|█▋        | 34/201 [00:00<00:02, 57.62it/s] 22%|██▏       | 45/201 [00:00<00:02, 70.29it/s] 28%|██▊       | 56/201 [00:01<00:01, 79.91it/s] 33%|███▎      | 67/201 [00:01<00:01, 87.38it/s] 39%|███▉      | 78/201 [00:01<00:01, 92.66it/s] 44%|████▍     | 89/201 [00:01<00:01, 96.55it/s] 50%|████▉     | 100/201 [00:01<00:01, 99.96it/s] 55%|█████▌    | 111/201 [00:01<00:00, 101.08it/s] 61%|██████    | 122/201 [00:01<00:00, 101.74it/s] 66%|██████▌   | 133/201 [00:01<00:00, 101.01it/s] 72%|███████▏  | 144/201 [00:01<00:00, 102.28it/s] 77%|███████▋  | 155/201 [00:02<00:00, 102.12it/s] 83%|████████▎ | 166/201 [00:02<00:00, 102.26it/s] 88%|████████▊ | 177/201 [00:02<00:00, 102.85it/s] 94%|█████████▎| 188/201 [00:02<00:00, 103.13it/s] 99%|█████████▉| 199/201 [00:02<00:00, 102.63it/s]100%|██████████| 201/201 [00:02<00:00, 80.81it/s] 
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app       mean   max  min  median
+0  605.mcf-s0  13.233941  16.0  1.0    16.0
+Done: results saved at: res/605.mcf-s0.vitt.pkl.degree_stats.csv
+
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app  mean   max   min  median
+0  605.mcf-s0  16.0  16.0  16.0    16.0
+Done: results saved at: res/605.mcf-s0.vit.stu.80.0.pkl.degree_stats.csv

@@ -68,21 +68,6 @@ def data_generator_gen(file_path,TRAIN_NUM,TOTAL_NUM,SKIP_NUM):
     
     return dev_dataloader,df_test
 
-# def last_layer_prediction_gen(test_loader, test_df, model_save_path):#"top_k";"degree";"optimal"
-#     print("predicting")
-#     prediction=[]
-#     model.load_state_dict(torch.load(model_save_path))
-#     model.to(device)
-#     model.eval()
-#     y_score=np.array([])
-#     for data in tqdm(test_loader):
-#         output = nn.Sigmoid(model(data))
-#         #prediction.extend(output.cpu())
-#         prediction.extend(output.cpu().detach().numpy())
-#     test_df["y_score"]= prediction
-
-#     return test_df[['id', 'cycle', 'addr', 'ip','block_address', 'y_score']]
-
 def evaluate(y_test,y_pred_bin):
     f1_score_res=f1_score(y_test, y_pred_bin, average='samples')
     #recall: tp / (tp + fn)
@@ -94,57 +79,62 @@ def evaluate(y_test,y_pred_bin):
 
 ##########################################################################################################
 #%% New post_processing_delta_bitmap
-
 def convert_hex(pred_block_addr):
-    hex_val = int(pred_block_addr[0]) << BLOCK_BITS 
-    hex_str = hex_val.to_bytes(((hex_val.bit_length() + 7) // 8), "big").hex().lstrip('0') 
-    return hex_str 
+    res=int(pred_block_addr)<<BLOCK_BITS
+    res2=res.to_bytes(((res.bit_length() + 7) // 8),"big").hex().lstrip('0')
+    return res2
 
-def add_delta(block_address, pred_index):
-    pred_delta = np.where(pred_index < DELTA_BOUND, pred_index+1, pred_index-BITMAP_SIZE) 
-    return block_address + pred_delta
+def add_delta(block_address,pred_index):
+    if pred_index<DELTA_BOUND:
+        pred_delta=pred_index+1
+    else:
+        pred_delta=pred_index-BITMAP_SIZE
+        
+    return block_address+pred_delta
 
-def bitmap_to_index_list(y_score, threshold):
-    sorted_pred_index = np.argsort(y_score)[-np.count_nonzero(y_score >= threshold):]
+def bitmap_to_index_list(y_score,threshold):
+    sorted_pred_index=torch.tensor(y_score).topk(len(np.where([y_score>=threshold])[1]))[1].numpy()
     #return sorted index
     return sorted_pred_index
 
-def post_processing_delta_filter(df,opt_threshold,filtering=True):
+def post_processing_delta_filter(df,opt_threshold):
     print("post_processing, opt_threshold<0.9")
     if opt_threshold>0.9:
         opt_threshold=0.5
+    
     df["pred_index"]=df.apply(lambda x: bitmap_to_index_list(x['y_score'], opt_threshold), axis=1)
+    df=df.explode('pred_index')
     df=df.dropna()[['id', 'cycle', 'block_address', 'pred_index']]
     #add delta to block address
     df['pred_block_addr'] = df.apply(lambda x: add_delta(x['block_address'], x['pred_index']), axis=1)
-    if filtering==True:
-        #filter
-        print("filtering")
-        que = []
-        pref_flag=[]
-        dg_counter=0
-        df["id_diff"]=df["id"].diff()
-        for index, row in df.iterrows():
-            if row["id_diff"]!=0:
-                que.append(row["block_address"])
-                dg_counter=0
-            pred=row["pred_block_addr"]
-            if dg_counter<Degree:
-                if pred in que:
-                    pref_flag.append(0)
-                else:
-                    que.append(pred)
-                    pref_flag.append(1)
-                    dg_counter+=1
-            else:
-                pref_flag.append(0)
-            que=que[-FILTER_SIZE:]
-        
-        df["pref_flag"]=pref_flag
-        df=df[df["pref_flag"]==1]
     
-    df['pred_hex'] = df['pred_block_addr'].apply(convert_hex)
-    df=df[["id","pred_hex"]]
+    #filter
+    print("filtering")
+    que = []
+    pref_flag=[]
+    dg_counter=0
+    df["id_diff"]=df["id"].diff()
+    for index, row in df.iterrows():
+        if row["id_diff"]!=0:
+            que.append(row["block_address"])
+            dg_counter=0
+        pred=row["pred_block_addr"]
+        if dg_counter<Degree:
+            if pred in que:
+                pref_flag.append(0)
+            else:
+                que.append(pred)
+                pref_flag.append(1)
+                dg_counter+=1
+        else:
+            pref_flag.append(0)
+        que=que[-FILTER_SIZE:]
+    
+    df["pref_flag"]=pref_flag
+    df=df[df["pref_flag"]==1]
+    
+    df['pred_hex'] = df.apply(lambda x: convert_hex(x['pred_block_addr']), axis=1)
+    #df=df[["id","pred_hex"]]
     return df
 
 #%%
@@ -196,7 +186,7 @@ if __name__ == "__main__":
     
     res_path += ".k."+str(K)+".c."+str(N)+".fine"
     
-    test_df = post_processing_delta_filter(test_df, opt_threshold, filtering=False)
+    test_df = post_processing_delta_filter(test_df, opt_threshold) 
     
     path_to_prefetch_file = res_path+".prefetch_file.txt"
     test_df[["id", "pred_hex"]].to_csv(path_to_prefetch_file, header=False, index=False, sep=" ")

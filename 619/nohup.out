@@ -1750,3 +1750,27 @@ saving tensor pickle data
 tensor data saved
 saving test dataframe
 done data saving for amm
+--- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/80 [00:00<?, ?it/s]  1%|▏         | 1/80 [00:00<00:44,  1.77it/s] 22%|██▎       | 18/80 [00:00<00:01, 35.51it/s] 44%|████▍     | 35/80 [00:00<00:00, 65.42it/s] 66%|██████▋   | 53/80 [00:00<00:00, 92.21it/s] 89%|████████▉ | 71/80 [00:00<00:00, 113.23it/s]100%|██████████| 80/80 [00:01<00:00, 78.16it/s] --- loading ---
+--- prediction ---
+predicting
+  0%|          | 0/80 [00:00<?, ?it/s]  1%|▏         | 1/80 [00:00<00:45,  1.75it/s] 15%|█▌        | 12/80 [00:00<00:02, 23.26it/s] 29%|██▉       | 23/80 [00:00<00:01, 42.10it/s] 44%|████▍     | 35/80 [00:00<00:00, 59.57it/s] 57%|█████▊    | 46/80 [00:00<00:00, 71.95it/s] 71%|███████▏  | 57/80 [00:01<00:00, 81.24it/s] 86%|████████▋ | 69/80 [00:01<00:00, 90.02it/s]100%|██████████| 80/80 [00:01<00:00, 61.87it/s]
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app       mean   max  min  median
+0  619.lbm-s0  13.434095  16.0  1.0    16.0
+Done: results saved at: res/619.lbm-s0.vit.stu.90.0.pkl.degree_stats.csv
+
+after model prediction col1
+ Index(['id', 'cycle', 'addr', 'ip', 'block_address', 'y_score'], dtype='object')
+--- post processing delta filter ---
+post_processing, opt_threshold<0.9
+filtering
+          app       mean   max  min  median
+0  619.lbm-s0  13.356623  16.0  1.0    16.0
+Done: results saved at: res/619.lbm-s0.vitt.pkl.degree_stats.csv
